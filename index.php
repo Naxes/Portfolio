@@ -23,13 +23,13 @@
         
         <div class="navigation">
             <div class="logo">
-                <p class="text-center">Sean Bickmore</p>
+                <?php include 'SVG/logo.svg'; ?>
             </div>
             
             <div class="dropNav">
                 
                 <div class="gamesMenu text-center">
-                    <button class="dropbtn1">Games</button>
+                    <button class="gamesbtn">Games</button>
                     
                     <div class="dropdown-content1">
                         <!-- Links Here -->
@@ -37,7 +37,7 @@
                 </div>    
                 
                 <div class="artMenu text-center">
-                    <button class="dropbtn2">Art</button>
+                    <button class="artbtn">Art</button>
                     
                     <div class="dropdown-content2">
                         <!-- Links Here -->
@@ -45,7 +45,7 @@
                 </div>
                 
                 <div class="musicMenu text-center">
-                    <button class="dropbtn3">Music</button>
+                    <button class="musicbtn">Music</button>
                     
                     <div class="dropdown-content3">
                         <!-- Links Here -->

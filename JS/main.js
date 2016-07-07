@@ -1,4 +1,6 @@
-/* Toggle blurred content AND change link text */
+/*
+  TOGGLE WELCOME CONTENT & CHANGE LINK TEXT
+*/
 $(".welcomeBottom a").on("click", function() {
   var el = $(this);
   if (el.text() == el.data("text-swap")) {
@@ -15,3 +17,9 @@ $(".welcomeBottom a").on("click", function() {
   $('.web-designTransition').toggleClass('web-designActive');
   $('.methodologyTransition').toggleClass('methodologyActive');
 });
+
+/*
+  CALCULATE LENGTH TEXT
+*/
+var el = document.getElementsByTagName('text')[0]; //Change as Needed
+console.log(el.getComputedTextLength());

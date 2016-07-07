@@ -152,12 +152,31 @@ body::-webkit-scrollbar-thumb {
 .logo{
     width: 20%;
     height: 100%;
-    font-family: 'Amatic SC', cursive;
-    font-size: 4vh;
     color: #DD7B5E;
     float: left;
 }
 
+/* SVG Self-Draw */
+.logo text{
+    stroke: #DD7B5E;
+    stroke-width: 2.5;
+    stroke-dasharray: 480.8947448730469; /* Calculated Length of Text: See main.js */
+    stroke-dashoffset: 480.8947448730469; /* Calculated Length of Text: See main.js */
+    fill-opacity: 0;
+    animation-name: draw;
+    animation-duration: 8s;
+    animation-fill-mode: forwards; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Nav Menu + Buttons */
 .dropNav{
     position: relative;
     top: 1.5vh;
@@ -191,7 +210,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 1;
 }
 
-.homebtn, .dropbtn1, .dropbtn2, .dropbtn3 {
+.homebtn, .gamesbtn, .artbtn, .musicbtn {
     background-color: #29003D;
     color: #DD7B5E;
     width: 80%;
@@ -323,7 +342,7 @@ body::-webkit-scrollbar-thumb {
     display: block;
 }
 
-.gamesMenu:hover .dropbtn1 {
+.gamesMenu:hover .gamesbtn {
     color: #fff;
     background-color: #DD7B5E;
 }
@@ -332,7 +351,7 @@ body::-webkit-scrollbar-thumb {
     display: block;
 }
 
-.artMenu:hover .dropbtn2 {
+.artMenu:hover .artbtn {
     color: #fff;
     background-color: #DD7B5E;
 }
@@ -341,7 +360,7 @@ body::-webkit-scrollbar-thumb {
     display: block;
 }
 
-.musicMenu:hover .dropbtn3 {
+.musicMenu:hover .musicbtn {
     color: #fff;
     background-color: #DD7B5E;
 }
