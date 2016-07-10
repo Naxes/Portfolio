@@ -1,7 +1,7 @@
 /*
   TOGGLE WELCOME CONTENT & CHANGE LINK TEXT
 */
-$(".welcomeBottom a").on("click", function() {
+$(".welcome p:nth-child(3) a").on("click", function() {
   var el = $(this);
   if (el.text() == el.data("text-swap")) {
     el.text(el.data("text-original"));
@@ -12,14 +12,13 @@ $(".welcomeBottom a").on("click", function() {
   
   $('.arrTransitionLeft').toggleClass('arrActiveLeft');
   $('.arrTransitionRight').toggleClass('arrActiveRight');
-  $('.moreTitleTransform').toggleClass('moreTitleActive');
-  $('.hobbiesTransition').toggleClass('hobbiesActive');
-  $('.web-designTransition').toggleClass('web-designActive');
-  $('.methodologyTransition').toggleClass('methodologyActive');
+  $('.more-link-transform').toggleClass('more-link-active');
+  $('.right-content-transition').toggleClass('right-content-active');
+
 });
 
 /*
   CALCULATE LENGTH TEXT
 */
-var el = document.getElementsByTagName('text')[0]; //Change as Needed
+var el = document.getElementsByTagName('text')[1]; //Change as Needed
 console.log(el.getComputedTextLength());

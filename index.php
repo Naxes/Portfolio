@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <!-- JS -->
         <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         
         <!-- Tab Icon -->
         <link rel="icon" href="/IMG/tab_icon.jpg"/>
@@ -58,47 +57,123 @@
             </div>
         </div>
 
+         <!-- Main Content Container -->
         <div class="portfolioBack">
-            <div class="main">
-                <a style="text-decoration: none;" href="#">
+            <div class="left-content">
+                <a href="#">
                     <div class="blackbox">
                         <div class="caption">
                             <img src="/IMG/caption_gradient.png" alt="Background for Caption"/>
-                            <p class="text-white header-medium-alternate">Content <span class="text-orange">Caption</span></p>
+                            <p class="text-white header-medium-alternate">What to <span class="text-orange">Put Here?</span></p>
                         </div>
                     </div>
                 </a>
+                
+                <!-- Newest Stuff Tab|Desktop -->
+                <div class="sub-content">
+                    <p class="header-medium text-purple">Newest <span class="text-neon_pink">Stuff</span></p>
+                    <div class="sub-content-box">
+                        <div class="preview">
+                            <!-- Images Here -->
+                        </div>
+                        <div class="sub-caption">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="sub-content-box">
+                        <div class="preview">
+                            <!-- Images Here -->
+                        </div>
+                        <div class="sub-caption">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="sub-content-box">
+                        <div class="preview">
+                            <!-- Images Here -->
+                        </div>
+                        <div class="sub-caption">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="sub-content-box">
+                        <div class="preview">
+                            <!-- Images Here -->
+                        </div>
+                        <div class="sub-caption">
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Newest Stuff Tab|Mobile -->
+                <div class="sub-content-mobile">
+                    <p class="header-medium text-purple">Newest <span class="text-neon_pink">Stuff</span></p>
+                    <div class="sub-content-box">
+                        <div class="preview"></div>
+                        <div class="sub-caption">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="sub-content-box">
+                        <div class="preview"></div>
+                        <div class="sub-caption">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="sub-content-box">
+                        <div class="preview"></div>  
+                        <div class="sub-caption">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="sub-content-box">
+                        <div class="preview"></div>
+                        <div class="sub-caption">
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
             
+            <div class="right-content">
+            <!-- Rightmost Content|Desktop&Mobile -->
             <div class="welcome">
-                <p class="welcomeTop header-medium text-orange">Welcome!</p>
-                <p class="welcomeMid text-small text-neon_pink">Heya! This is my portfolio I opted to develop in order to effectively keep any and all things I make and tinker with in one neat and (hopefully) aesthetically pleasing place.</p>
-                <p class="welcomeBottom text-link"><span class="arr arrTransitionLeft">&darr;</span><a data-text-swap=" Less About Me " href="#"> More About Me </span></a><span class="arr arrTransitionRight">&darr;</span></p>
+                <p class="header-medium text-orange">Welcome!</p>
+                <p class="text-small text-neon_pink">Heya! This is my portfolio I opted to develop in order to effectively keep any and all things I make and tinker with in one neat and (hopefully) aesthetically pleasing place.</p>
+                <p class="text-link"><span class="arr arrTransitionLeft">&darr;</span><a data-text-swap=" Less About Me " href="#"> More About Me </span></a><span class="arr arrTransitionRight">&darr;</span></p>
             </div>
             </br>
-            <div class="moreTitle">
-                <p class="moreTitleTransform bold-purple header-medium">It's Interesting... Really!</p>
-                <p class="moreTitleMobile bold-purple header-medium">More About Me!</p>
+            <div class="more-link">
+                <p class="more-link-transform bold-purple header-medium">It's Interesting... Really!</p>
+                <p class="more-link-mobile bold-purple header-medium">More About Me!</p>
             </div>
             
-            <div class="hobbies hobbiesTransition">
-                <p class="hobbiesTop header-medium text-purple">Hobbies</p>
-                <p class="hobbiesMid text-small text-neon_pink">In an unprofessional sense my hobbies are Music Production, Drawing, Digital Design, Web Design, and tinkering in Games Development. 
+            <div class="hobbies right-content-transition">
+                <p class="header-medium text-purple">Hobbies</p>
+                <p class="text-small text-neon_pink">In an unprofessional sense my hobbies are Music Production, Drawing, Digital Design, Web Design, and tinkering in Games Development. 
                 And in a professional sense these hobbies channel great creative energy into projects with many, in most cases, being extremely beneficial and relevant. Everyday (even in making this portfolio) I'm 
                 </br><span class="boldFontSwap">Learning new things!</span></p>
             </div>
             
-            <div class="web-design web-designTransition">
-                <p class="web-designTop header-medium text-purple">Web Design</p>
-                <p class="web-designMid text-small text-neon_pink">What really gets my blood pumping is the opportunity to work on new and exciting things with people who are equally passionate about the prospects of 
+            <div class="web-design right-content-transition">
+                <p class="header-medium text-purple">Web Design</p>
+                <p class="text-small text-neon_pink">What really gets my blood pumping is the opportunity to work on new and exciting things with people who are equally passionate about the prospects of 
                 their ideas as I am in my interest to help. Creating expressive, interactive online platforms to advertise and host your idea 
                 without sacrificing its tangible image is a </br><span class="boldFontSwap">true joy!</span></p>
             </div>
             
-            <div class="methodology methodologyTransition">
-                <p class="methodologyTop header-medium text-purple">Methodology</p>
-                <p class="methodologyMid text-small text-neon_pink">When it comes to close-up collaboration and consolidation on projects I thoroughly believe in the application of Agile Methodolgies. 
+            <div class="methodology right-content-transition">
+                <p class="header-medium text-purple">Methodology</p>
+                <p class="text-small text-neon_pink">When it comes to close-up collaboration and consolidation on projects I thoroughly believe in the application of Agile Methodolgies. 
                 Nothing has better ensured the satisfactory completion of a project than a </br><span class="boldFontSwap"> Good ol' Scrum, right?</span></p>
+            </div>
             </div>
         </div>
         

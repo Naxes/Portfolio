@@ -2,6 +2,10 @@
     MOBILE STYLES
 */
 @media (max-width: 414px){
+    body::-webkit-scrollbar {
+        display: none;
+    }
+    
     .navigation{
         width: 100%;
         height: 10%;
@@ -23,7 +27,7 @@
     
     .portfolioBack{
         width: 100%;
-        height: 100%;
+        height: 200vh;
         background-color: rgba(0,0,0,.5);
         border-radius: 1%;
         margin: 0 auto;
@@ -31,11 +35,11 @@
         z-index: 0;
     }
     
-    .main{
+    .left-content{
         width: 100%;
         height: 50%;
-        background-color: rgba(0,0,0,.5);
         float: left;
+        margin: 0 0 2vh 0;
     }
 
     .blackbox-header{
@@ -46,9 +50,10 @@
 
     .blackbox{
         width: 90%;
-        height: 65%;
+        height: 30vh;
         background-color: rgba(0,0,0,.8);
-        margin: 0 0 0 0;
+        float: left;
+        margin: 2vh 0 0 4vh;
         border: .1vh solid;
         border-color: #7B2F89;
         animation: blackbox-load .5s alternate;
@@ -62,37 +67,85 @@
         margin: 0 1vh 0 0;
     }
     
+    .sub-content{
+        display: none;
+    }
+    
+    .sub-content-mobile{
+        width: 100%;
+        height: 20%;
+        float: left;
+        display: block;
+        margin: 2vh 0 0 4vh;
+        background-color: rgba(0,0,0,0);
+    }
+    
+    .sub-content-mobile p:nth-child(1){
+        width: 100%;
+        background-color: rgba(0,0,0,1);
+        border-top-right-radius: 0;
+    }
+    
+    .sub-content-box{
+        width: 42%;
+        height: 33.332%;
+        margin-right: 2vh;
+        float: left;
+    }
+    
+    .preview{
+        width: 45%;
+        height: 100%;
+        float: left;
+        background-color: #D69A79;
+    }
+    
+    .sub-caption{
+        width: 55%;
+        height: 100%;
+        float: left;
+        background-color: blue;
+    }
+    
+    .right-content{
+        width: 100%;
+        height: 50%;
+        float: left;
+        margin: 0 0 0 0;
+        background-color: rgba(0,0,0,.5);
+        float: left;
+    }
+    
     .welcome{
         width: 100%;
         min-height: 5%;
         display: block;
         background-color: rgba(0,0,0,1);
         float: right;
-        margin: 1vh 0 1vh 0;
+        margin: 0 0 1vh 0;
         border-top-right-radius: 0%;
     }
     
-    .welcomeBottom{
+    .welcome p:nth-child(3){
         display: none;
     }
     
-    .moreTitle{
+    .more-link{
         width: 100%;
-        height: 5%;
-        float: right;
+        float: left;
         display: block;
-        margin: 0 0 .5vh 0;
+        margin: 0 0 2vh 0;
         text-align: center;
         overflow: visible;
         position: relative;
         z-index: 1;
     }
 
-    .moreTitleTransform{
+    .more-link-transform{
         display: none;
     }
     
-    .moreTitleMobile{
+    .more-link-mobile{
         display: inline;
     }
     
@@ -134,6 +187,7 @@
         width: 100%;
         height: 20%;
         margin: 0 0 0 0;
+        float: right;
         background-color: rgba(20,0,30,0.9);
     }
 
