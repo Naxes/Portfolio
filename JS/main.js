@@ -1,7 +1,7 @@
 /*
   TOGGLE WELCOME CONTENT & CHANGE LINK TEXT
 */
-$(".welcome p:nth-child(3) a").on("click", function() {
+$(".welcome p:nth-child(3) button").on("click", function() {
   var el = $(this);
   if (el.text() == el.data("text-swap")) {
     el.text(el.data("text-original"));

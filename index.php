@@ -16,10 +16,10 @@
         <!-- CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="/CSS/style.css"/>
+        <link rel="stylesheet" href="/CSS/tablet.css"/>
         <link rel="stylesheet" href="/CSS/mobile.css"/>
     </head>
     <body>
-        
         <div class="navigation">
             <div class="logo">
                 <?php include 'SVG/logo.svg'; ?>
@@ -60,21 +60,27 @@
          <!-- Main Content Container -->
         <div class="portfolioBack">
             <div class="left-content">
-                <a href="#">
+                <button>
                     <div class="blackbox">
                         <div class="caption">
                             <img src="/IMG/caption_gradient.png" alt="Background for Caption"/>
-                            <p class="text-white header-medium-alternate">What to <span class="text-orange">Put Here?</span></p>
+                            <p class="text-white header-medium-alternate">Website Under <span class="text-orange">Construction ;)</span></p>
                         </div>
                     </div>
-                </a>
+                </button>
                 
                 <!-- Newest Stuff Tab|Desktop -->
                 <div class="sub-content">
-                    <p class="header-medium text-purple">Newest <span class="text-neon_pink">Stuff</span></p>
+                    <div class="newest-stuff">
+                        <p class="header-medium text-purple">Newest <span class="text-neon_pink">Stuff</span></p>
+                        <p class="header-small text-purple_light">Y'know... Stuff will go here!</p>
+                    </div>
+                
+                    
                     <div class="sub-content-box">
                         <div class="preview">
                             <!-- Images Here -->
+                            
                         </div>
                         <div class="sub-caption">
                             
@@ -86,7 +92,7 @@
                             <!-- Images Here -->
                         </div>
                         <div class="sub-caption">
-                            
+                
                         </div>
                     </div>
                     
@@ -95,7 +101,7 @@
                             <!-- Images Here -->
                         </div>
                         <div class="sub-caption">
-                            
+                
                         </div>
                     </div>
                     
@@ -104,50 +110,63 @@
                             <!-- Images Here -->
                         </div>
                         <div class="sub-caption">
-                            
+                
                         </div>
                     </div>
                 </div>
                 
-                <!-- Newest Stuff Tab|Mobile -->
-                <div class="sub-content-mobile">
-                    <p class="header-medium text-purple">Newest <span class="text-neon_pink">Stuff</span></p>
+                <!-- Newest Stuff Tab|Desktop -->
+                <div class="sub-content">
+                    <div class="newest-stuff">
+                        <p class="header-medium text-purple">Other <span class="text-neon_pink">Stuff</span></p>
+                        <p class="header-small text-purple_light">And some more...</p>
+                    </div>
+                
+                    
                     <div class="sub-content-box">
-                        <div class="preview"></div>
+                        <div class="preview">
+                            <!-- Images Here -->
+                            
+                        </div>
                         <div class="sub-caption">
                             
                         </div>
                     </div>
                     
                     <div class="sub-content-box">
-                        <div class="preview"></div>
+                        <div class="preview">
+                            <!-- Images Here -->
+                        </div>
                         <div class="sub-caption">
-                            
+                
                         </div>
                     </div>
                     
                     <div class="sub-content-box">
-                        <div class="preview"></div>  
+                        <div class="preview">
+                            <!-- Images Here -->
+                        </div>
                         <div class="sub-caption">
-                            
+                
                         </div>
                     </div>
                     
                     <div class="sub-content-box">
-                        <div class="preview"></div>
+                        <div class="preview">
+                            <!-- Images Here -->
+                        </div>
                         <div class="sub-caption">
-                            
+                
                         </div>
                     </div>
                 </div>
             </div>
-            
             <div class="right-content">
             <!-- Rightmost Content|Desktop&Mobile -->
             <div class="welcome">
                 <p class="header-medium text-orange">Welcome!</p>
                 <p class="text-small text-neon_pink">Heya! This is my portfolio I opted to develop in order to effectively keep any and all things I make and tinker with in one neat and (hopefully) aesthetically pleasing place.</p>
-                <p class="text-link"><span class="arr arrTransitionLeft">&darr;</span><a data-text-swap=" Less About Me " href="#"> More About Me </span></a><span class="arr arrTransitionRight">&darr;</span></p>
+                <p class="text-link"><span class="arr arrTransitionLeft">&darr;</span><button data-text-swap=" Less About Me " href="#" role="button"> More About Me </span></button><span class="arr arrTransitionRight">&darr;</span></p>
             </div>
             </br>
             <div class="more-link">

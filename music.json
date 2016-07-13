@@ -1,0 +1,93 @@
+{"employees":[
+    {"firstName":"John", "lastName":"Doe"},
+    {"firstName":"Anna", "lastName":"Smith"},
+    {"firstName":"Peter", "lastName":"Jones"}
+]}
+
+<a href="#">
+                    <div class="blackbox">
+                        <div class="caption">
+                            <img src="/IMG/caption_gradient.png" alt="Background for Caption"/>
+                            <p class="text-white header-medium-alternate">Website Under <span class="text-orange">Construction ;)</span></p>
+                        </div>
+                    </div>
+                </a>
+
+                
+                <!-- Newest Stuff Tab|Desktop -->
+                <div class="sub-content">
+                    <div class="newest-stuff">
+                        <p class="header-medium text-purple">Newest <span class="text-neon_pink">Stuff</span></p>
+                        <p class="header-small text-purple_light">All Kinds of Things!</p>
+                    </div>
+
+                    
+                    <div class="sub-content-box">
+                        <div class="preview">
+                            <!-- Images Here -->
+                            
+                        </div>
+                        <div class="sub-caption">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="sub-content-box">
+                        <div class="preview">
+                            <!-- Images Here -->
+                        </div>
+                        <div class="sub-caption">
+
+                        </div>
+                    </div>
+                    
+                    <div class="sub-content-box">
+                        <div class="preview">
+                            <!-- Images Here -->
+                        </div>
+                        <div class="sub-caption">
+
+                        </div>
+                    </div>
+                    
+                    <div class="sub-content-box">
+                        <div class="preview">
+                            <!-- Images Here -->
+                        </div>
+                        <div class="sub-caption">
+
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Newest Stuff Tab|Mobile -->
+                <div class="sub-content-mobile">
+                    <p class="header-medium text-purple">Newest <span class="text-neon_pink">Stuff</span></p>
+                    <div class="sub-content-box">
+                        <div class="preview"></div>
+                        <div class="sub-caption">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="sub-content-box">
+                        <div class="preview"></div>
+                        <div class="sub-caption">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="sub-content-box">
+                        <div class="preview"></div>  
+                        <div class="sub-caption">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="sub-content-box">
+                        <div class="preview"></div>
+                        <div class="sub-caption">
+                            
+                        </div>
+                    </div>
+                </div>

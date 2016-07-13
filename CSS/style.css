@@ -26,14 +26,19 @@ html, body{
 /*
     HEADERS
 */
+.header-mini{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2vh;
+}
+
 .header-small{
     font-family: 'Amatic SC', cursive;
-    font-size: 2vh; 
+    font-size: 2.5vh; 
 }
 
 .header-small-alternate{
     font-family: 'Cuprum', sans-serif;
-    font-size: 2vh;
+    font-size: 22.5vh;
 }
 
 .header-medium{
@@ -103,12 +108,24 @@ html, body{
     color: #7B2F89;   
 }
 
+.text-purple_light{
+    color: #D69ECD;
+}
+
 .text-orange{
     color: #DD7B5E;   
 }
 
 .text-white{
     color: #FFFFFF;    
+}
+
+.text-hot_pink{
+    color: #E02079;
+}
+
+.text-dark_pink{
+    color: #9F5A9E;
 }
 
 .text-neon_pink{
@@ -146,7 +163,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 6%;
     background-color: rgba(20,0,30,0.9);
-    margin: 0 0 10vh 0;
+    margin: 0 0 5vh 0;
 }
 
 .logo{
@@ -384,9 +401,9 @@ body::-webkit-scrollbar-thumb {
 
 .portfolioBack{
     width: 65%;
-    height: 200vh;
+    overflow: hidden;
     background-color: rgba(0,0,0,.5);
-    border-radius: 1%;
+    border-radius: 10px;
     margin: 0 auto;
     position: relative;
     z-index: 0;
@@ -394,22 +411,24 @@ body::-webkit-scrollbar-thumb {
 
 /* Left Content */
 .left-content{
-    width: 67%;
-    height: 62%;
-    background-color: rgba(0,0,0,.5);
+    width: 70%;
     float: left;
-    margin: 3vh 0 0 3vh;
+    background-color: rgba(0,0,0,0);
 }
 
-.left-content a:nth-child(1){
+.left-content button:nth-child(1){
+    width: 100%;
+    margin: 2vh 1vh auto;
     text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
 
 .blackbox{
-    width: 90%;
-    height: 35%;
+    width: 100%;
+    height: 45vh;
     background-color: rgba(0,0,0,.8);
-    margin: 2vh 2vh 0 4vh;
     border: .1vh solid;
     border-color: #7B2F89;
     animation: blackbox-onload .5s alternate;
@@ -454,33 +473,48 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sub-content{
-    width: 45%;
-    height: 55%;
+    width: 90%;
+    height: 50vh;
     float: left;
     background-color: rgba(0,0,0,0);
-    margin: 2vh 2vh 0 4vh;   
+    margin: 0 4vh auto;   
 }
 
-.sub-content-mobile{
-    display: none;
-}
-
-.sub-content p:nth-child(1){
+.newest-stuff{
     width: 100%;
-    background-color: rgba(0,0,0,1);
-    border-top-right-radius: 35px;
+    height: 15%;
+    position: relative;
+}
+
+.newest-stuff p{
+    position: absolute;
+}
+
+.newest-stuff p:nth-child(1){
+    bottom: 0;
+}
+
+.newest-stuff p:nth-child(2){
+    right: 0;
+    bottom: 0;
 }
 
 .sub-content-box {
     width: 100%;
     height: 16.666%;
-    margin: 0 0 1vh 0;
-    border-top: .2vh solid #7B2F89;
-    border-bottom: .2vh solid #7B2F89;
+    margin: 0 0 2.5vh 0;
+    background-color: none;
+    -webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+    transition: background-color .5s;
+}
+
+.sub-content-box:hover{
+    background-color: rgba(121,103,148,.2);
 }
 
 .preview{
-    width: 40%;
+    width: 20%;
     height: 100%;
     float: left;
     background-color: #D69A79;
@@ -492,19 +526,18 @@ body::-webkit-scrollbar-thumb {
 }
     
 .sub-caption{
-    width: 60%;
+    width: 80%;
     height: 100%;
     float: left;
-    background-color: blue;
 }
 
 /* Right Content */
 .right-content{
     width: 25%;
-    height: 62%;
+    height: auto;
     float: left;
-    margin: 3vh 3vh 0 3vh;
     background-color: rgba(0,0,0,0);
+    margin: 2vh;
 }
 
 .welcome{
@@ -531,8 +564,10 @@ body::-webkit-scrollbar-thumb {
     margin: 1.5vh 0 0 0;
 }
 
-.welcome p:nth-child(3) a{
-    text-decoration: none;
+.welcome p:nth-child(3) button{
+    background-color: transparent;
+    outline: none;
+    border: none;
     color: #9f5a9e;
    /* HOVER OFF | Transition to no 'text-shadow' */
     text-shadow: 0 0;
@@ -660,7 +695,7 @@ body::-webkit-scrollbar-thumb {
 
 .methodology{
     width: 100%;
-    min-height: 15%;
+    height: auto;
     float: left;
     margin: 0 0 1vh 0;
     background-color: rgba(0,0,0,1);
@@ -694,7 +729,7 @@ body::-webkit-scrollbar-thumb {
 .footer{
     width: 100%;
     height: 20%;
-    margin: 10vh 0 0 0;
+    margin: 5vh 0 0 0;
     background-color: rgba(20,0,30,0.9);
 }
 

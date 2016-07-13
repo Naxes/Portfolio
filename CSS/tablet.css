@@ -1,7 +1,7 @@
 /*
     MOBILE STYLES
 */
-@media (max-width: 640px){
+@media (max-width: 768px){
     body::-webkit-scrollbar {
         display: none;
     }
@@ -37,14 +37,9 @@
     
     .left-content{
         width: 100%;
-        overflow: hidden;
+        height: 40%;
         float: left;
-        margin: 0 auto;
-    }
-    
-    .left-content button:nth-child(1){
-        width: 100%;
-        margin: 0 auto;
+        margin: 0;
     }
 
     .blackbox-header{
@@ -55,7 +50,7 @@
 
     .blackbox{
         width: 100%;
-        height: 35vh;
+        height: 50%;
         background-color: rgba(0,0,0,.8);
         float: left;
         margin: 0 auto;
@@ -73,28 +68,26 @@
     }
     
     .sub-content{
-        width: 90%;
-        height: 15vh;
+        display: none;
+    }
+    
+    .sub-content-mobile{
+        width: 100%;
+        height: 20%;
         position: relative;
         float: left;
         display: block;
-        margin: 5vh auto 5vh 3vh;
+        margin: 2vh auto;
         background-color: rgba(0,0,0,0);
     }
     
-    .newest-stuff{
+    .sub-content-mobile p:nth-child(1){
         width: 100%;
-        position: relative;
-    }
-    
-    .sub-content p:nth-child(1){
-        width: 100%;
-        
     }
     
     .sub-content-box{
         width: 50%;
-        height: 8vh;
+        height: 40%;
         margin: 0 0 1vh 0;
         float: left;
     }
