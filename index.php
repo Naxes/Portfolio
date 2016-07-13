@@ -15,12 +15,12 @@
         
         <!-- CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="/CSS/style.css"/>
+        <link rel="stylesheet" href="/PACK/CSS/style.css"/>
     </head>
     <body>
         <div class="navigation">
             <div class="logo">
-                <?php include 'SVG/logo.svg'; ?>
+                <?php include 'PACK/SVG/logo.svg'; ?>
             </div>
             
             <div class="dropNav">
@@ -61,7 +61,7 @@
                 <button>
                     <div class="blackbox">
                         <div class="caption">
-                            <img src="/IMG/caption_gradient.png" alt="Background for Caption"/>
+                            <img src="PACK/IMG/caption_gradient.png" alt="Background for Caption"/>
                             <p class="text-white header-medium-alternate">Website Under <span class="text-orange">Construction ;)</span></p>
                         </div>
                     </div>
@@ -204,14 +204,14 @@
                     <p class="innerRightTop">&copy;2016-20XX Sean Bickmore</p>
                     <p class="innerRightMid">Site is Powered by my own Wondrous Hands and made reality thanks to the wonderful Cloud 9 IDE!</p>
                     <div class="socialLinks">
-                        <a href="https://goo.gl/JBdBTF" target="_blank"><img class="linkedIn" src="/IMG/LinkedIn_Icon.jpg" alt="LinkedIn Icon"/></a>
-                        <a href="https://goo.gl/rxJa4V" target="_blank"><img class="youTube" src="/IMG/YouTube_Icon.jpg" alt="YouTube Icon"/></a>
+                        <a href="https://goo.gl/JBdBTF" target="_blank"><img class="linkedIn" src="PACK/IMG/LinkedIn_Icon.jpg" alt="LinkedIn Icon"/></a>
+                        <a href="https://goo.gl/rxJa4V" target="_blank"><img class="youTube" src="PACK/IMG/YouTube_Icon.jpg" alt="YouTube Icon"/></a>
                     </div>
                 </div>
             </div>
         </div>
         
         <!-- Main Javascript File -->
-        <script src="/JS/main.js"></script>
+        <script src="/PACK/JS/main.js"></script>
     </body>
 </html>
