@@ -16,8 +16,6 @@
         <!-- CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="/CSS/style.css"/>
-        <link rel="stylesheet" href="/CSS/tablet.css"/>
-        <link rel="stylesheet" href="/CSS/mobile.css"/>
     </head>
     <body>
         <div class="navigation">
