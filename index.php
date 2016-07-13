@@ -62,15 +62,15 @@
                     <div class="blackbox">
                         <div class="caption">
                             <img src="PACK/IMG/caption_gradient.png" alt="Background for Caption"/>
-                            <p class="text-white header-medium-alternate">Website Under <span class="text-orange">Construction ;)</span></p>
+                            <p class="text-white header-medium-alternate">Website Under <span class="text-orange">Construction</span></p>
                         </div>
                     </div>
                 </button>
                 
-                <!-- Newest Stuff Tab|Desktop -->
+                <!-- Web Stuff -->
                 <div class="sub-content">
-                    <div class="newest-stuff">
-                        <p class="header-medium text-purple">Newest <span class="text-neon_pink">Stuff</span></p>
+                    <div class="sub-header">
+                        <p class="header-medium text-purple">Web <span class="text-neon_pink">Stuff</span></p>
                         <p class="header-small text-purple_light">Y'know... Stuff will go here!</p>
                     </div>
                 
@@ -113,9 +113,9 @@
                     </div>
                 </div>
                 
-                <!-- Newest Stuff Tab|Desktop -->
+                <!-- Other Stuff -->
                 <div class="sub-content">
-                    <div class="newest-stuff">
+                    <div class="sub-header">
                         <p class="header-medium text-purple">Other <span class="text-neon_pink">Stuff</span></p>
                         <p class="header-small text-purple_light">And some more...</p>
                     </div>
@@ -163,7 +163,7 @@
             <!-- Rightmost Content|Desktop&Mobile -->
             <div class="welcome">
                 <p class="header-medium text-orange">Welcome!</p>
-                <p class="text-small text-neon_pink">Heya! This is my portfolio I opted to develop in order to effectively keep any and all things I make and tinker with in one neat and (hopefully) aesthetically pleasing place.</p>
+                <p class="text-small text-neon_pink">Hello World! Welcome to my portfolio.</p>
                 <p class="text-link"><span class="arr arrTransitionLeft">&darr;</span><button data-text-swap=" Less About Me " href="#" role="button"> More About Me </span></button><span class="arr arrTransitionRight">&darr;</span></p>
             </div>
             </br>
