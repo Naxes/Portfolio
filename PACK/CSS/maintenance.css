@@ -136,4 +136,8 @@ html, body{
     .maintenance-back{
         width: 80%;
     }   
+    
+    .maintenance-info{
+        width: 60%;
+    }
 }
