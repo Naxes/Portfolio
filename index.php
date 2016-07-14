@@ -68,8 +68,8 @@
                 <!-- Web Stuff -->
                 <div class="sub-content">
                     <div class="sub-header">
-                        <p class="header-medium text-purple">Web <span class="text-neon_pink">Stuff</span></p>
-                        <p class="header-small text-purple_light">Y'know... Stuff will go here!</p>
+                        <p class="header-medium text-purple">Web <span class="text-neon_pink">Tricks</span></p>
+                        <p class="header-small text-purple_light">Aesthetic Pleasantries!</p>
                     </div>
                 
                     
@@ -82,6 +82,7 @@
                             <p class="header-medium text-orange">Title</p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
+                            <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
                         </div>
                     </div>
                     
@@ -93,6 +94,7 @@
                             <p class="header-medium text-orange">Title</p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
+                            <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
                         </div>
                     </div>
                     
@@ -104,6 +106,7 @@
                             <p class="header-medium text-orange">Title</p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
+                            <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
                         </div>
                     </div>
                     
@@ -115,6 +118,7 @@
                             <p class="header-medium text-orange">Title</p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
+                            <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
                         </div>
                     </div>
                 </div>
@@ -123,7 +127,7 @@
                 <div class="sub-content">
                     <div class="sub-header">
                         <p class="header-medium text-purple">Other <span class="text-neon_pink">Stuff</span></p>
-                        <p class="header-small text-purple_light">And some more...</p>
+                        <p class="header-small text-purple_light">Other... Stuff I do</p>
                     </div>
                 
                     
@@ -136,6 +140,7 @@
                             <p class="header-medium text-orange">Title</p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
+                            <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
                         </div>
                     </div>
                     
@@ -147,6 +152,7 @@
                             <p class="header-medium text-orange">Title</p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
+                            <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
                         </div>
                     </div>
                     
@@ -158,6 +164,7 @@
                             <p class="header-medium text-orange">Title</p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
+                            <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
                         </div>
                     </div>
                     
@@ -169,6 +176,7 @@
                             <p class="header-medium text-orange">Title</p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
+                            <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
                         </div>
                     </div>
                 </div>
@@ -177,7 +185,7 @@
             <!-- Rightmost Content|Desktop&Mobile -->
             <div class="welcome">
                 <p class="header-medium text-orange">Welcome!</p>
-                <p class="text-small text-neon_pink">Hello World! Welcome to my portfolio.</p>
+                <p class="text-small text-neon_pink">Welcome to my portfolio, where I hope to encapsulate all the things I learn and make in one neat and (hopefully) aesthetically pleasing place</p>
                 <p class="text-link"><span class="arr arrTransitionLeft">&darr;</span><button data-text-swap=" Less About Me " href="#" role="button"> More About Me </span></button><span class="arr arrTransitionRight">&darr;</span></p>
             </div>
             </br>

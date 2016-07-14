@@ -387,7 +387,8 @@ body::-webkit-scrollbar-thumb {
     height: 70vh;
     float: left;
     background-color: rgba(0,0,0,0);
-    margin: 0 0 4vh 4vh;   
+    margin: 0 0 4vh 4vh;
+    
 }
 
 .sub-header{
@@ -443,6 +444,8 @@ body::-webkit-scrollbar-thumb {
     width: 80%;
     height: 100%;
     float: left;
+    position: relative;
+    -webkit-backface-visibility: hidden;/* Stops issue whereby font degrades on CSS3 transformations */
 }
 
 .sub-caption p{
@@ -454,6 +457,27 @@ body::-webkit-scrollbar-thumb {
     margin: 0 auto;
     border: .2vh solid rgba(123, 47, 137, .4);
 }
+
+.sub-caption p:nth-child(4){
+    position: absolute;
+    bottom: 5%;
+}
+
+.sub-caption p:nth-child(4) a{
+    color: #E02079;
+    text-shadow: 0 0 1px #E02079;
+    text-decoration: none;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: text-shadow .5s;
+    -moz-transition: text-shadow .5s;
+    transition: text-shadow .5s;
+}
+
+.sub-caption p:nth-child(4) a:hover{
+    color: #E02079;
+    text-shadow: 0 0 1px #E02079, 0 0 1px #E02079, 0 0 1px #E02079;
+}
+
 
 /* Right Content */
 .right-content{
@@ -505,22 +529,6 @@ body::-webkit-scrollbar-thumb {
     from { color: #9f5a9e; }
     to { color: #E09ADF; text-shadow: 0 0 5px #E09ADF, 0 0 5px #E09ADF; }
 }
-
-.welcome p:nth-child(3) a:visited{
-    color: #D69ECD;
-}
-
-.welcome p:nth-child(3) a:hover{
-    
-    /* HOVER ON | Transition to 'text-shadow' */
-    color: #E09ADF;
-    text-shadow: 0 0 5px #E09ADF, 0 0 5px #E09ADF;
-    animation: none;
-    -webkit-transition: text-shadow .3s;
-    -moz-transition: text-shadow .3s;
-    transition: text-shadow .3s;
-}
-
 
 .more-link{/* Transformations for the 'More About Me' ARROWS */
     width: 100%;
@@ -870,7 +878,7 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
         
     }
-    
+
     .sub-content-box{
         width: 50%;
         height: 8vh;
@@ -888,6 +896,10 @@ body::-webkit-scrollbar-thumb {
         width: 65%;
         height: 100%;
         float: left;
+    }
+    
+    .sub-caption p:nth-child(4){
+        display: none;
     }
     
     .right-content{
