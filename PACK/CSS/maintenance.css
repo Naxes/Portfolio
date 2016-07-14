@@ -96,3 +96,12 @@ html, body{
     stroke-dashoffset: 0;
   }
 }
+
+/*
+    MOBILE STYLES
+*/
+@media (max-width: 800px){
+    .maintenance-back{
+        width: 80%;
+    }   
+}
