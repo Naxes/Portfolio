@@ -16,6 +16,9 @@
         <link rel="stylesheet" href="/PACK/CSS/maintenance.css"/>
     </head>
     <body>
+        <div class="header">
+            <p>Sorry About This!</p>
+        </div>
         <div class="maintenance-back">
             <div class="maintenance-text">
                 <?php include 'PACK/SVG/maintenance.svg'; ?>

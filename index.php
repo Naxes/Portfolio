@@ -24,33 +24,31 @@
             </div>
             
             <div class="dropNav">
-                
-                <div class="gamesMenu text-center">
-                    <button class="gamesbtn">Games</button>
+                <div class="home-menu text-center">
+                    <button class="navbtn">Home</button>
                     
                     <div class="dropdown-content1">
                         <!-- Links Here -->
+                        
                     </div>
-                </div>    
+                </div>
                 
-                <div class="artMenu text-center">
-                    <button class="artbtn">Art</button>
+                <div class="web-menu text-center">
+                    <button class="navbtn">Web</button>
                     
                     <div class="dropdown-content2">
                         <!-- Links Here -->
+                        <a href="#">CSS</a>
                     </div>
-                </div>
+                </div>  
                 
-                <div class="musicMenu text-center">
-                    <button class="musicbtn">Music</button>
+                <div class="other-menu text-center">
+                    <button class="navbtn">Other</button>
                     
                     <div class="dropdown-content3">
                         <!-- Links Here -->
+                        
                     </div>
-                </div>
-                
-                <div class="homeMenu text-center">
-                    <button class="homebtn">Home</button>
                 </div>
             </div>
         </div>
@@ -81,7 +79,9 @@
                             
                         </div>
                         <div class="sub-caption">
-                            
+                            <p class="header-medium text-orange">Title</p>
+                            <p class="text-small text-white">Description</p>
+                            <div class="divider"></div>
                         </div>
                     </div>
                     
@@ -90,7 +90,9 @@
                             <!-- Images Here -->
                         </div>
                         <div class="sub-caption">
-                
+                            <p class="header-medium text-orange">Title</p>
+                            <p class="text-small text-white">Description</p>
+                            <div class="divider"></div>
                         </div>
                     </div>
                     
@@ -99,7 +101,9 @@
                             <!-- Images Here -->
                         </div>
                         <div class="sub-caption">
-                
+                            <p class="header-medium text-orange">Title</p>
+                            <p class="text-small text-white">Description</p>
+                            <div class="divider"></div>
                         </div>
                     </div>
                     
@@ -108,7 +112,9 @@
                             <!-- Images Here -->
                         </div>
                         <div class="sub-caption">
-                
+                            <p class="header-medium text-orange">Title</p>
+                            <p class="text-small text-white">Description</p>
+                            <div class="divider"></div>
                         </div>
                     </div>
                 </div>
@@ -127,7 +133,9 @@
                             
                         </div>
                         <div class="sub-caption">
-                            
+                            <p class="header-medium text-orange">Title</p>
+                            <p class="text-small text-white">Description</p>
+                            <div class="divider"></div>
                         </div>
                     </div>
                     
@@ -136,7 +144,9 @@
                             <!-- Images Here -->
                         </div>
                         <div class="sub-caption">
-                
+                            <p class="header-medium text-orange">Title</p>
+                            <p class="text-small text-white">Description</p>
+                            <div class="divider"></div>
                         </div>
                     </div>
                     
@@ -145,7 +155,9 @@
                             <!-- Images Here -->
                         </div>
                         <div class="sub-caption">
-                
+                            <p class="header-medium text-orange">Title</p>
+                            <p class="text-small text-white">Description</p>
+                            <div class="divider"></div>
                         </div>
                     </div>
                     
@@ -154,7 +166,9 @@
                             <!-- Images Here -->
                         </div>
                         <div class="sub-caption">
-                
+                            <p class="header-medium text-orange">Title</p>
+                            <p class="text-small text-white">Description</p>
+                            <div class="divider"></div>
                         </div>
                     </div>
                 </div>

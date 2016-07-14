@@ -208,42 +208,42 @@ body::-webkit-scrollbar-thumb {
 
 /* Nav Menu + Buttons */
 .dropNav{
+    width: 80%;
+    height: 100%;
+    float: left;
     position: relative;
-    top: 1.5vh;
 }
 
-.homeMenu, .musicMenu, .artMenu, .gamesMenu {
-    position: relative;
-    display: inline-block;
-    float: right;
+.home-menu,
+.web-menu,
+.other-menu,
+.gamesMenu {
     width: 5%;
     height: 100%;
+    position: absolute;
+    top: 15%;
+    display: inline-block;
+    float: left;
 }
 
-.homeMenu{
-    position: relative;
-    right: -.5%;
+.home-menu{
+    right: 20%;
+    margin: 0 1vh 0 0;
 }
 
-.musicMenu{
-    z-index: 1;
+.web-menu{
+    right: 15%;
+    margin: 0 .5vh 0 0;
 }
 
-.artMenu{
-    position: relative;
-    left: -.5%;
+.other-menu{
+    right: 10%;
 }
 
-.gamesMenu{
-    position: relative;
-    left: -1%;
-    z-index: 1;
-}
-
-.homebtn, .gamesbtn, .artbtn, .musicbtn {
+.navbtn {
     background-color: #29003D;
     color: #DD7B5E;
-    width: 80%;
+    width: 100%;
     height: 4vh;
     font-family: 'Amatic SC', cursive;
     font-size: 2.5vh;
@@ -253,7 +253,7 @@ body::-webkit-scrollbar-thumb {
     border: none;
     border-left: .2vh solid;
     border-left-color: #DD7B5E;
-    border-top-right-radius: 20px;
+    border-top-right-radius: 10px;
     box-shadow: .2vw .5vh 2px black;
     outline: none;
     -webkit-transition: background-color .5s;
@@ -262,100 +262,31 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-.dropdown-content1{/* Games List */
+.dropdown-content1,
+.dropdown-content2,
+.dropdown-content3{
     display: none;
     position: absolute;
     font-family: 'Cuprum', sans-serif;
     font-size: 2vh;
-    top: 3.5vh;
+    top: 4vh;
     background-color: rgba(20,0,30,1);
-    min-width: 160px;
+    min-width: 5vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
-
-.dropdown-content2{/* Art List */
-    display: none;
-    position: absolute;
-    font-family: 'Cuprum', sans-serif;
-    font-size: 2vh;
-    top: 7vh;
-    background-color: rgba(20,0,30,1);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-
-.dropdown-content3{/* Music List */
-    display: none;
-    position: absolute;
-    font-family: 'Cuprum', sans-serif;
-    font-size: 2vh;
-    top: 7vh;
-    background-color: rgba(20,0,30,1);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content1 a{
-    color: #DD7B5E;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    border-left: .4vh solid;
-    border-top: .2vh solid;
-    border-right: .2vh solid;
-    border-left-color: #754132;
-    border-top-color: #29003D;
-    border-right-color: #29003D;
-    border-radius: 5%;
-}
-
-.dropdown-content2 a{
-    color: #DD7B5E;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    border-left: .4vh solid;
-    border-top: .2vh solid;
-    border-right: .2vh solid;
-    border-left-color: #754132;
-    border-top-color: #29003D;
-    border-right-color: #29003D;
-    border-radius: 5%;
-}
-
+.dropdown-content1 a,
+.dropdown-content2 a,
 .dropdown-content3 a{
     color: #DD7B5E;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    border-left: .4vh solid;
-    border-top: .2vh solid;
-    border-right: .2vh solid;
-    border-left-color: #754132;
-    border-top-color: #29003D;
-    border-right-color: #29003D;
-    border-radius: 5%;
 }
 
-.dropdown-content1 a:hover{
-    background-color: #DD7B5E;
-    border-left-color: #DD7B5E;
-    text-decoration: none;
-    color: #fff;
-}
-
-.dropdown-content2 a:hover{
-    background-color: #DD7B5E;
-    border-left-color: #DD7B5E;
-    text-decoration: none;
-    color: #fff;
-}
-
+.dropdown-content1 a:hover,
+.dropdown-content2 a:hover,
 .dropdown-content3 a:hover{
     background-color: #DD7B5E;
     border-left-color: #DD7B5E;
@@ -363,36 +294,17 @@ body::-webkit-scrollbar-thumb {
     color: #fff;
 }
 
-.homeMenu:hover .homebtn{
+.home-menu:hover .navbtn,
+.web-menu:hover .navbtn,
+.other-menu:hover .navbtn{
     color: #fff;
     background-color: #DD7B5E;
 }
 
-.gamesMenu:hover .dropdown-content1{
+.home-menu:hover .dropdown-content1,
+.web-menu:hover .dropdown-content2,
+.other-menu:hover .dropdown-content3{
     display: block;
-}
-
-.gamesMenu:hover .gamesbtn{
-    color: #fff;
-    background-color: #DD7B5E;
-}
-
-.artMenu:hover .dropdown-content2{
-    display: block;
-}
-
-.artMenu:hover .artbtn{
-    color: #fff;
-    background-color: #DD7B5E;
-}
-
-.musicMenu:hover .dropdown-content3{
-    display: block;
-}
-
-.musicMenu:hover .musicbtn{
-    color: #fff;
-    background-color: #DD7B5E;
 }
 
 /*
@@ -429,8 +341,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 55vh;
     background-color: rgba(0,0,0,.8);
-    border: .1vh solid;
-    border-color: #7B2F89;
+    border: .1vh solid #7B2F89;
     animation: blackbox-onload .5s alternate;
     animation-iteration-count: 2;
 }
@@ -464,12 +375,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 @keyframes blackbox-onload{
-    from {border-color: #7B2F89; }
     to {border-color: #7B2F89; box-shadow: 0 0 .5vh #7B2F89, 0 0 2.5vh #7B2F89;}
 }
 
 @keyframes blackbox-highlight{
-    from {border-color: #DD7B5E; }
     to {border-color: #DD7B5E; box-shadow: 0 0 .5vh #DD7B5E, 0 0 2.5vh #DD7B5E;}
 }
 
@@ -478,7 +387,7 @@ body::-webkit-scrollbar-thumb {
     height: 70vh;
     float: left;
     background-color: rgba(0,0,0,0);
-    margin: 0 0 0 4vh;   
+    margin: 0 0 4vh 4vh;   
 }
 
 .sub-header{
@@ -518,18 +427,32 @@ body::-webkit-scrollbar-thumb {
     width: 20%;
     height: 100%;
     float: left;
-    background-color: #D69A79;
+    border: .2vh solid #7B2F89;
+    animation: none;
 }
 
-.preview img{
-    width: 100%;
-    height: 100%;
+.preview:hover{
+    animation: preview-highlight .5s alternate infinite;
+}
+
+@keyframes preview-highlight{
+    to { border-color: #DD7B5E; box-shadow: 0 0 .5vh #DD7B5E, 0 0 2.5vh #DD7B5E;}
 }
     
 .sub-caption{
     width: 80%;
     height: 100%;
     float: left;
+}
+
+.sub-caption p{
+    margin: 0 0 0 1vh;
+}
+
+.divider{
+    width: 96.5%;
+    margin: 0 auto;
+    border: .2vh solid rgba(123, 47, 137, .4);
 }
 
 /* Right Content */
@@ -959,11 +882,10 @@ body::-webkit-scrollbar-thumb {
         width: 35%;
         height: 100%;
         float: left;
-        background-color: #D69A79;
     }
     
     .sub-caption{
-        width: 60%;
+        width: 65%;
         height: 100%;
         float: left;
     }
