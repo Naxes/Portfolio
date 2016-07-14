@@ -23,6 +23,15 @@
             <div class="maintenance-text">
                 <?php include 'PACK/SVG/maintenance.svg'; ?>
             </div>
+            <div class="maintenance-info">
+                <p>What's Up?</p>
+                <ul>
+                    <li>Organization of the work(s) to be showcased.</li>
+                    <li>Additional pages for displaying work(s).</li>
+                    <li>Implementation of more technologies (More JS, PHP, for example).</li>
+                    <li>Better directory organization.</li>
+                </ul>
+            </div>
         </div>
     </body>
 </html>

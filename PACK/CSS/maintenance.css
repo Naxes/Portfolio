@@ -40,6 +40,7 @@ html, body{
 .maintenance-back{
     width: 50%;
     height: 50vh;
+    overflow: hidden;
     background-color: rgba(0,0,0,.5);
     border-radius: 10px;
     margin: 0 auto;
@@ -58,10 +59,6 @@ html, body{
     color: #DD7B5E;
     margin: 0 auto;
     position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
 }
 
 /* SVG Self-Draw */
@@ -95,6 +92,41 @@ html, body{
   to {
     stroke-dashoffset: 0;
   }
+}
+
+.maintenance-info{
+    width: 40%;
+    overflow: auto;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,.5);
+    animation: fold-down 2s forwards;
+    animation-delay: 1.5s;
+    transform-origin: 0 0;
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+}
+
+.maintenance-info p:nth-child(1){
+    font-family: 'Amatic SC', cursive;
+    font-size: 4vh;
+    color: #E691E5;
+    margin: 0 2vw 1vh 2vw;
+    text-shadow: 0 0 5px #E691E5, 0 0 5px #E691E5;
+    text-align: center;
+    border-bottom: .2vh solid #E691E5;
+}
+
+.maintenance-info ul:nth-child(2){
+    width: 100%;
+    font-family: 'Quicksand', cursive;
+    font-size: 1.5vh;
+    color: #FFFFFF;
+}
+
+@keyframes fold-down{
+    to { -webkit-transform: rotateX(0deg); transform: rotateX(0deg);}
 }
 
 /*
