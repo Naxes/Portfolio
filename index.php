@@ -11,7 +11,7 @@
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         
         <!-- Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Quicksand|Cuprum|Amatic+SC|Indie+Flower' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Quicksand|Cuprum|Amatic+SC|Indie+Flower|Pompiere' rel='stylesheet' type='text/css'>
         
         <!-- CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
@@ -59,8 +59,7 @@
                 <button>
                     <div class="blackbox">
                         <div class="caption">
-                            <img src="PACK/IMG/caption_gradient.png" alt="Background for Caption"/>
-                            <p class="text-white header-medium-alternate">Website Under <span class="text-orange">Construction</span></p>
+                            <?php include 'PACK/SVG/test.svg'; ?> 
                         </div>
                     </div>
                 </button>
@@ -211,7 +210,7 @@
             <div class="methodology right-content-transition">
                 <p class="header-medium text-purple">Methodology</p>
                 <p class="text-small text-neon_pink">When it comes to close-up collaboration and consolidation on projects I thoroughly believe in the application of Agile Methodolgies. 
-                Nothing has better ensured the satisfactory completion of a project than a </br><span class="boldFontSwap"> Good ol' Scrum, right?</span></p>
+                It's functioned especially effectively in many of my college projects. Here's to you; </br><span class="boldFontSwap">Scrum!</span></p>
             </div>
             </div>
         </div>
