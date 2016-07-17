@@ -59,7 +59,7 @@
                 <button>
                     <div class="blackbox">
                         <div class="caption">
-                            <?php include 'PACK/SVG/test.svg'; ?> 
+                            <?php include 'PACK/SVG/HTMLCSS.svg'; ?> 
                         </div>
                     </div>
                 </button>
@@ -224,9 +224,11 @@
                 <div class="innerRight">
                     <p class="innerRightTop">&copy;2016-20XX Sean Bickmore</p>
                     <p class="innerRightMid">Site is Powered by my own Wondrous Hands and made reality thanks to the wonderful Cloud 9 IDE!</p>
+                    <p class="innerRightMid">Attribution-NonCommercial-NoDerivatives 4.0 International</p>
                     <div class="socialLinks">
                         <a href="https://goo.gl/JBdBTF" target="_blank"><img class="linkedIn" src="PACK/IMG/LinkedIn_Icon.jpg" alt="LinkedIn Icon"/></a>
                         <a href="https://goo.gl/rxJa4V" target="_blank"><img class="youTube" src="PACK/IMG/YouTube_Icon.jpg" alt="YouTube Icon"/></a>
+                        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 1280 720.00001">
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+
+<g>
+    <path id="line-bottom" d="m65.714 640h1142.9" stroke="#D69A79" stroke-width="1px" fill="none"/>
+    <path id="line-top" d="m65.714 86h1142.9" stroke="#D69A79" stroke-width="1px" fill="none"/>
+</g>
+<!--
+  _   _ _____ __  __ _       _                      
+ | | | |_   _|  \/  | |     | |    ___   __ _  ___  
+ | |_| | | | | |\/| | |     | |   / _ \ / _` |/ _ \ 
+ |  _  | | | | |  | | |___  | |__| (_) | (_| | (_) |
+ |_| |_| |_| |_|  |_|_____| |_____\___/ \__, |\___/ 
+                                        |___/       
+
+-->
+<g>
+    <path id="HTMLine1" d="m288.4 237.15h279.31l-23.739 285.37-115.66 31.82-114.15-32.325z" stroke="#e24f24" stroke-width="1px" fill="none"/>
+    <path id="HTMLFill1" d="m288.4 237.15h279.31l-23.739 285.37-115.66 31.82-114.15-32.325z" fill-rule="evenodd" fill="#e24f24"/>
+    
+    <path id="HTMLine2" d="m542.96 259.37-115.16 0.50508 1.0102 34.85 87.883-1.0102-3.0305 37.376-84.853-0.50508v34.85h81.317l-9.0914 108.59-72.731 21.213v35.86l93.439-25.254z" stroke="#f0652a" stroke-width="1px" fill="none"/>
+    <path id="HTMLFill2" d="m542.96 259.37-115.16 0.50508 1.0102 34.85 87.883-1.0102-3.0305 37.376-84.853-0.50508v34.85h81.317l-9.0914 108.59-72.731 21.213v35.86l93.439-25.254z" fill-rule="evenodd" fill="#f0652a"/>
+    
+    <path id="HTMLine3" d="m516.06 294.79-175.96-0.0631 9.407 106.44 122.09 0.79368-3.8393 44.688-39.375 10.982-39.241-10.67-2.3214-27.991-35.491 0.0446 4.8214 55.491 72.411 19.777 72.143-20.536 8.9286-107.77h-127.5l-3.125-36.071 134.38 0.44643z" stroke="#fff" stroke-width="1px" fill="none"/>
+    <path id="HTMLFill3" d="m516.06 294.79-175.96-0.0631 9.407 106.44 122.09 0.79368-3.8393 44.688-39.375 10.982-39.241-10.67-2.3214-27.991-35.491 0.0446 4.8214 55.491 72.411 19.777 72.143-20.536 8.9286-107.77h-127.5l-3.125-36.071 134.38 0.44643z" fill-rule="evenodd" fill="#fff"/>
+</g>
+<!--
+   ____ ____ ____    _                      
+  / ___/ ___/ ___|  | |    ___   __ _  ___  
+ | |   \___ \___ \  | |   / _ \ / _` |/ _ \ 
+ | |___ ___) |__) | | |__| (_) | (_| | (_) |
+  \____|____/____/  |_____\___/ \__, |\___/ 
+                                |___/       
+
+-->
+<g>
+    <path id="CSSLine1" d="m1009.9 235.88h-279.81l25.001 285.62 114.65 32.577 115.16-31.567z" stroke="#1471b6" stroke-width="1px" fill="none"/>
+    <path id="CSSFill1" d="m1009.9 235.88h-279.81l25.001 285.62 114.65 32.577 115.16-31.567z" fill-rule="evenodd" fill="#1471b6"/>
+    
+    <path id="CSSLine2" d="m984.82 258.75h-115.18l0.17857 33.036 88.393 0.17857-15.714 179.11-72.321 20.357v37.857l93.214-25.357z" stroke="#34aadc" stroke-width="1px" fill="none"/>
+    <path id="CSSFill2" d="m984.82 258.75h-115.18l0.17857 33.036 88.393 0.17857-15.714 179.11-72.321 20.357v37.857l93.214-25.357z" fill-rule="evenodd" fill="#34aadc"/>
+    
+    <path id="CSSLine3" d="m781.96 291.79h175.71l-15.714 178.39-72.5 20.714-71.429-19.821-5-55.179h35l2.8571 27.679 39.107 10.893 39.286-10.536 4.1071-46.25-82.321 0.71429-3.0357-35.357 88.393-0.35714 3.0357-35.536-134.47 0.2z" stroke="#fff" stroke-width="1px" fill="none"/>
+    <path id="CSSFill3" d="m781.96 291.79h175.71l-15.714 178.39-72.5 20.714-71.429-19.821-5-55.179h35l2.8571 27.679 39.107 10.893 39.286-10.536 4.1071-46.25-82.321 0.71429-3.0357-35.357 88.393-0.35714 3.0357-35.536-134.47 0.2z" fill-rule="evenodd" fill="#fff"/>
+</g>
+
+<!--
+  _   _ _____ __  __ _        ___      ____ ____ ____    _____         _   
+ | | | |_   _|  \/  | |      ( _ )    / ___/ ___/ ___|  |_   _|____  _| |_ 
+ | |_| | | | | |\/| | |      / _ \/\ | |   \___ \___ \    | |/ _ \ \/ / __|
+ |  _  | | | | |  | | |___  | (_>  < | |___ ___) |__) |   | |  __/>  <| |_ 
+ |_| |_| |_| |_|  |_|_____|  \___/\/  \____|____/____/    |_|\___/_/\_\\__|
+
+-->
+<g>
+    <path id="H-line" stroke="#fff" stroke-width="1px" fill="none" d="m313.39 162.5h18.036v17.857h17.143v-18.214h18.214v55h-18.571v-18.036h-16.786v17.679h-18.393z"/>
+    <path id="H-fill" fill-rule="evenodd" fill="#fff" d="m313.39 162.5h18.036v17.857h17.143v-18.214h18.214v55h-18.571v-18.036h-16.786v17.679h-18.393z"/>
+    
+    <path id="T-line" stroke="#fff" stroke-width="1px" fill="none" d="m374.64 162.14h50.357v18.75h-16.429v35.357h-17.857v-36.071h-16.25z"/>
+    <path id="T-fill" fill-rule="evenodd" fill="#fff" d="m374.64 162.14h50.357v18.75h-16.429v35.357h-17.857v-36.071h-16.25z"/>
+    
+    <path id="M-line" stroke="#fff" stroke-width="1px" fill="none" d="m432.86 162.5h19.643l11.429 19.286 11.607-19.286h18.929v54.286h-18.036v-26.607l-12.679 18.929-12.679-19.643v27.321h-18.036z"/>
+    <path id="M-fill" fill-rule="evenodd" fill="#fff" d="m432.86 162.5h19.643l11.429 19.286 11.607-19.286h18.929v54.286h-18.036v-26.607l-12.679 18.929-12.679-19.643v27.321h-18.036z"/>
+    
+    <path id="L-line" stroke="#fff" stroke-width="1px" fill="none" d="m503.75 162.32h18.75v36.786h25.357v17.5h-44.286z"/>
+    <path id="L-fill" fill-rule="evenodd" fill="#fff" d="m503.75 162.32h18.75v36.786h25.357v17.5h-44.286z"/>
+    
+    <path id="C-line" stroke="#fff" stroke-width="1px" fill="none" d="m794.74 162.65h43.942v15.152h-25.001v23.739h25.506v14.142h-43.689z"/>
+    <path id="C-fill" fill-rule="evenodd" fill="#fff" d="m794.74 162.65h43.942v15.152h-25.001v23.739h25.506v14.142h-43.689z"/>
+    
+    <path id="S-line" stroke="#fff" stroke-width="1px" fill="none" d="m848.53 162.14h50.003v14.9h-23.486l25.001 27.527v11.364h-51.518v-14.142h24.749l-25.001-26.769z"/>
+    <path id="S-fill" fill-rule="evenodd" fill="#fff" d="m848.53 162.14h50.003v14.9h-23.486l25.001 27.527v11.364h-51.518v-14.142h24.749l-25.001-26.769z"/>
+    
+    <path id="S2-line" stroke="#fff" stroke-width="1px" fill="none" d="m909.11 162.32h49.643v15.179h-23.214l24.643 26.786v11.429h-51.25v-13.571h25.357l-25.179-27.5z"/>
+    <path id="S2-fill" fill-rule="evenodd" fill="#fff" d="m909.11 162.32h49.643v15.179h-23.214l24.643 26.786v11.429h-51.25v-13.571h25.357l-25.179-27.5z"/>
+</g>
+</svg>
