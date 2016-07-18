@@ -4,7 +4,7 @@ html, body{
     margin: 0;
     max-width: 100%;
     min-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: rgba(39,0,56,1);
     background: url('../IMG/portfolioBackgroundBlur.jpg') no-repeat;
     background-size: 100% 100%;
@@ -17,7 +17,6 @@ html, body{
  |  _  | | (_| | | | | | | (_| | | | | |_  | |__| (_) | | (_) | |   
  |_| |_|_|\__, |_| |_|_|_|\__, |_| |_|\__|  \____\___/|_|\___/|_|   
           |___/           |___/                                     
-
 */
 ::selection {
     background: #CC52AD;
@@ -29,12 +28,12 @@ html, body{
 }
 
 /*
-  ____            _    __       _ _          ____            _             _   
- |  _ \ ___  _ __| |_ / _| ___ | (_) ___    / ___|___  _ __ | |_ ___ _ __ | |_ 
- | |_) / _ \| '__| __| |_ / _ \| | |/ _ \  | |   / _ \| '_ \| __/ _ \ '_ \| __|
- |  __/ (_) | |  | |_|  _| (_) | | | (_) | | |__| (_) | | | | ||  __/ | | | |_ 
- |_|   \___/|_|   \__|_|  \___/|_|_|\___/   \____\___/|_| |_|\__\___|_| |_|\__|
-
+  __  __       _       _                                    ____  _         _           
+ |  \/  | __ _(_)_ __ | |_ ___ _ __   __ _ _ __   ___ ___  / ___|| |_ _   _| | ___  ___ 
+ | |\/| |/ _` | | '_ \| __/ _ \ '_ \ / _` | '_ \ / __/ _ \ \___ \| __| | | | |/ _ \/ __|
+ | |  | | (_| | | | | | ||  __/ | | | (_| | | | | (_|  __/  ___) | |_| |_| | |  __/\__ \
+ |_|  |_|\__,_|_|_| |_|\__\___|_| |_|\__,_|_| |_|\___\___| |____/ \__|\__, |_|\___||___/
+                                                                      |___/             
 */
 .header{
     width: 100%;
@@ -140,13 +139,80 @@ html, body{
 }
 
 /*
+  ____            _    __       _ _             ____            _   _               ____       _           _   
+ |  _ \ ___  _ __| |_ / _| ___ | (_) ___    _  / ___|  ___  ___| |_(_) ___  _ __   / ___|  ___| | ___  ___| |_ 
+ | |_) / _ \| '__| __| |_ / _ \| | |/ _ \  (_) \___ \ / _ \/ __| __| |/ _ \| '_ \  \___ \ / _ \ |/ _ \/ __| __|
+ |  __/ (_) | |  | |_|  _| (_) | | | (_) |  _   ___) |  __/ (__| |_| | (_) | | | |  ___) |  __/ |  __/ (__| |_ 
+ |_|   \___/|_|   \__|_|  \___/|_|_|\___/  (_) |____/ \___|\___|\__|_|\___/|_| |_| |____/ \___|_|\___|\___|\__|
+
+*/
+.section-background{
+    width: 65%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+}
+
+.section-select{
+    width: 100%;
+    height: 20vh;
+    margin: 1vh auto;
+    background-color: blue;
+}
+
+.section-content{
+    width: 90%;
+    height: 65vh;
+    float: left;
+    background-color: rgba(0,0,0,0);
+    margin: 0 0 0 4vh;
+}
+
+.section-content-box {
+    width: 100%;
+    height: 35%;
+    margin: 0 0 2.5vh 0;
+    background-color: none;
+    -webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+    transition: background-color .5s;
+}
+
+.section-content-box:hover{
+    background-color: rgba(121,103,148,.2);
+}
+
+.section-link{
+    -wekbit-transition: text-shadow .5s;
+    -moz-transition: text-shadow .5s;
+    transition: text-shadow .5s;
+}
+
+.section-link:hover{
+    color: #DD7B5E;
+    text-shadow: 0 0 1.5px #DD7B5E, 0 0 1.5px #DD7B5E, 0 0 1.5px #DD7B5E;
+}
+
+/*
+  ____            _    __       _ _             ____  _                                       ____       _           _   
+ |  _ \ ___  _ __| |_ / _| ___ | (_) ___    _  / ___|| |__   _____      _____ __ _ ___  ___  / ___|  ___| | ___  ___| |_ 
+ | |_) / _ \| '__| __| |_ / _ \| | |/ _ \  (_) \___ \| '_ \ / _ \ \ /\ / / __/ _` / __|/ _ \ \___ \ / _ \ |/ _ \/ __| __|
+ |  __/ (_) | |  | |_|  _| (_) | | | (_) |  _   ___) | | | | (_) \ V  V / (_| (_| \__ \  __/  ___) |  __/ |  __/ (__| |_ 
+ |_|   \___/|_|   \__|_|  \___/|_|_|\___/  (_) |____/|_| |_|\___/ \_/\_/ \___\__,_|___/\___| |____/ \___|_|\___|\___|\__|
+
+*/
+
+
+/*
   __  __       _     _ _        ____  _         _           
  |  \/  | ___ | |__ (_) | ___  / ___|| |_ _   _| | ___  ___ 
  | |\/| |/ _ \| '_ \| | |/ _ \ \___ \| __| | | | |/ _ \/ __|
  | |  | | (_) | |_) | | |  __/  ___) | |_| |_| | |  __/\__ \
  |_|  |_|\___/|_.__/|_|_|\___| |____/ \__|\__, |_|\___||___/
                                           |___/             
-
 */
 @media (max-width: 800px){
     .maintenance-back{
@@ -155,5 +221,32 @@ html, body{
     
     .maintenance-info{
         width: 60%;
+    }
+    
+    .section-background{
+        width: 100%;
+        overflow: hidden;
+        background-color: rgba(0,0,0,0);
+        border-radius: 1%;
+        margin: 0 auto;
+        position: relative;
+        z-index: 0;
+    }
+    
+    .section-content{
+        width: 90%;
+        height: 15vh;
+        position: relative;
+        float: left;
+        display: block;
+        margin: 5vh auto 5vh 3vh;
+        background-color: rgba(0,0,0,0);
+    }
+    
+    .section-content-box{
+        width: 50%;
+        height: 8vh;
+        margin: 0 0 1vh 0;
+        float: left;
     }
 }

@@ -13,7 +13,7 @@
         
         <!-- CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="/PACK/CSS/maintenance.css"/>
+        <link rel="stylesheet" href="/PACK/CSS/additional.css"/>
     </head>
     <body>
         <div class="header">
@@ -21,7 +21,7 @@
         </div>
         <div class="maintenance-back">
             <div class="maintenance-text">
-                <?php include '../PACK/SVG/maintenance.svg'; ?>
+                <?php include($_SERVER['DOCUMENT_ROOT'].'/PACK/SVG/maintenance.svg'); ?>
             </div>
             <div class="maintenance-info">
                 <p>What's Up?</p>

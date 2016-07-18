@@ -110,13 +110,26 @@ html, body{
 */
 .text-small{
     font-family: 'Pompiere', cursive;
-    font-size: 1.6vh;
+    font-size: 1.7vh;
+}
+
+.text-medium{
+    font-family: 'Pompiere', cursive;
+    font-size: 2vh;
 }
 
 .text-link{
     color: #9F5A9E;
     font-family: 'Quicksand', cursive;
     font-size: 1.5vh;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+p{
+    margin: 0 0 0 0;
 }
 
 /*
@@ -249,8 +262,7 @@ body::-webkit-scrollbar-thumb {
 
 .home-menu,
 .web-menu,
-.other-menu,
-.gamesMenu {
+.other-menu{
     width: 5%;
     height: 100%;
     position: absolute;
@@ -273,7 +285,7 @@ body::-webkit-scrollbar-thumb {
     right: 10%;
 }
 
-.navbtn {
+.navbtn{
     background-color: #29003D;
     color: #DD7B5E;
     width: 100%;
@@ -294,6 +306,9 @@ body::-webkit-scrollbar-thumb {
     transition: background-color .5s;
 }
 
+.navbtn:hover{
+    text-decoration: none;
+}
 
 .dropdown-content1,
 .dropdown-content2,
@@ -341,14 +356,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*
-  ____            _    __       _ _          ____            _             _   
- |  _ \ ___  _ __| |_ / _| ___ | (_) ___    / ___|___  _ __ | |_ ___ _ __ | |_ 
- | |_) / _ \| '__| __| |_ / _ \| | |/ _ \  | |   / _ \| '_ \| __/ _ \ '_ \| __|
- |  __/ (_) | |  | |_|  _| (_) | | | (_) | | |__| (_) | | | | ||  __/ | | | |_ 
- |_|   \___/|_|   \__|_|  \___/|_|_|\___/   \____\___/|_| |_|\__\___|_| |_|\__|
+  ____            _    __       _ _             _   _                      
+ |  _ \ ___  _ __| |_ / _| ___ | (_) ___    _  | | | | ___  _ __ ___   ___ 
+ | |_) / _ \| '__| __| |_ / _ \| | |/ _ \  (_) | |_| |/ _ \| '_ ` _ \ / _ \
+ |  __/ (_) | |  | |_|  _| (_) | | | (_) |  _  |  _  | (_) | | | | | |  __/
+ |_|   \___/|_|   \__|_|  \___/|_|_|\___/  (_) |_| |_|\___/|_| |_| |_|\___|
 
 */
-.portfolioBack{
+.content-background{
     width: 65%;
     overflow: hidden;
     background-color: rgba(0,0,0,.5);
@@ -367,7 +382,7 @@ body::-webkit-scrollbar-thumb {
 
 .left-content button:nth-child(1){
     width: 100%;
-    margin: 2vh 0 auto 1vh;
+    margin: 1vh 0 auto 1vh;
     text-decoration: none;
     background-color: transparent;
     border: none;
@@ -451,7 +466,7 @@ body::-webkit-scrollbar-thumb {
     stroke-dasharray: 600;
     stroke-dashoffset: 600;
     animation-name: HTMLCSS-textdraw;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-delay: 7s;
@@ -466,10 +481,10 @@ body::-webkit-scrollbar-thumb {
 #H-fill, #T-fill, #M-fill, #L-fill, #C-fill, #S-fill, #S2-fill{
     fill-opacity: 0;
     animation-name: HTMLCSS-textfill;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
-    animation-delay: 9s;
+    animation-delay: 8s;
 }
 
 @keyframes HTMLCSS-textfill{
@@ -774,6 +789,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 20%;
     margin: 5vh 0 0 0;
+    position: relative;
     background-color: rgba(20,0,30,0.9);
 }
 
@@ -882,7 +898,7 @@ body::-webkit-scrollbar-thumb {
 
 */
 @media (max-width: 1600px){
-    .portfolioBack{
+    .content-background{
         width: 80%;
     }
     
@@ -940,7 +956,7 @@ body::-webkit-scrollbar-thumb {
         font-size: 6vh;
     }
     
-    .portfolioBack{
+    .content-background{
         width: 100%;
         overflow: hidden;
         background-color: rgba(0,0,0,.5);
@@ -957,6 +973,11 @@ body::-webkit-scrollbar-thumb {
         margin: 0 auto;
     }
     
+    .latest-content{
+        width: 100%;
+        margin: 0 0 0 3vh;
+    }
+    
     .left-content button:nth-child(1){
         width: 100%;
         margin: 0 auto;
@@ -971,7 +992,7 @@ body::-webkit-scrollbar-thumb {
     .blackbox{
         width: 100%;
         height: 35vh;
-        background-color: rgba(0,0,0,.8);
+        background-color: rgba(0,0,0,.5);
         float: left;
         margin: 0 auto;
     }
