@@ -20,12 +20,12 @@
     <body>
         <div class="navigation">
             <div class="logo">
-                <?php include 'PACK/SVG/logo.svg'; ?>
+                <?php include($_SERVER['DOCUMENT_ROOT'].'/PACK/SVG/logo.svg'); ?>
             </div>
             
             <div class="dropNav">
                 <div class="home-menu text-center">
-                    <a class="navbtn" href="/index.php">Home</a>
+                    <a class="navbtn" href="/">Home</a>
                     
                     <div class="dropdown-content1">
                         <!-- Links Here -->
@@ -34,7 +34,7 @@
                 </div>
                 
                 <div class="web-menu text-center">
-                    <a class="navbtn" href="/web.php">Web</a>
+                    <a class="navbtn" href="/web/web-section">Web</a>
                     
                     <div class="dropdown-content2">
                         <!-- Links Here -->
@@ -60,7 +60,7 @@
                 <button>
                     <div class="blackbox">
                         <div class="caption">
-                            <?php include 'PACK/SVG/HTMLCSS.svg'; ?>
+                            <?php include($_SERVER['DOCUMENT_ROOT'].'/PACK/SVG/HTMLCSS.svg'); ?>
                         </div>
                     </div>
                 </button>

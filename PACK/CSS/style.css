@@ -128,6 +128,14 @@ a:hover{
     text-decoration: none;
 }
 
+a:active{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
 p{
     margin: 0 0 0 0;
 }

@@ -154,19 +154,12 @@ html, body{
     margin: 0 auto;
     position: relative;
     z-index: 0;
-}
-
-.section-select{
-    width: 100%;
-    height: 20vh;
-    margin: 1vh auto;
-    background-color: blue;
+    margin-bottom: 4vh;
 }
 
 .section-content{
     width: 90%;
     height: 65vh;
-    float: left;
     background-color: rgba(0,0,0,0);
     margin: 0 0 0 4vh;
 }
@@ -185,7 +178,70 @@ html, body{
     background-color: rgba(121,103,148,.2);
 }
 
+.section-preview{
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: .2vh solid #7B2F89;
+    animation: none;
+}
+
+.section-preview:hover{
+    animation: preview-highlight .5s alternate infinite;
+}
+
+@keyframes preview-highlight{
+    to { 
+        border-color: #DD7B5E; 
+        box-shadow: 0 0 .5vh #DD7B5E, 0 0 2.5vh #DD7B5E;
+    }
+}
+
+#CSS3_Icon:hover{
+    animation: CSS3-transform 4s infinite;
+}
+
+@keyframes CSS3-transform {
+    0%{
+        -wekbit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    16%{
+        -wekbit-transform: translate(12%, 0);
+        -moz-transform: translate(12%, 0);
+        transform: translate(12%, 0);
+    }
+    32%{
+        -wekbit-transform: translate(-12%, 0);
+        -moz-transform: translate(-12%, 0);
+        transform: translate(-12%, 0);
+    }
+    48%{
+        -wekbit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    64%{
+        -wekbit-transform: translate(0, 5%);
+        -moz-transform: translate(0, 5%);
+        transform: translate(0, 5%);
+    }
+    80%{
+        -wekbit-transform: translate(0, -10%);
+        -moz-transform: translate(0, -10%);
+        transform: translate(0, -10%);
+    }
+    100%{
+        -wekbit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
 .section-link{
+    color: #DD7B5E !important;
+    text-decoration: none !important;
     -wekbit-transition: text-shadow .5s;
     -moz-transition: text-shadow .5s;
     transition: text-shadow .5s;
@@ -195,7 +251,6 @@ html, body{
     color: #DD7B5E;
     text-shadow: 0 0 1.5px #DD7B5E, 0 0 1.5px #DD7B5E, 0 0 1.5px #DD7B5E;
 }
-
 /*
   ____            _    __       _ _             ____  _                                       ____       _           _   
  |  _ \ ___  _ __| |_ / _| ___ | (_) ___    _  / ___|| |__   _____      _____ __ _ ___  ___  / ___|  ___| | ___  ___| |_ 
@@ -205,6 +260,20 @@ html, body{
 
 */
 
+/*
+  _  __    ___   ___              ____  _         _           
+ / |/ /_  / _ \ / _ \ _ ____  __ / ___|| |_ _   _| | ___  ___ 
+ | | '_ \| | | | | | | '_ \ \/ / \___ \| __| | | | |/ _ \/ __|
+ | | (_) | |_| | |_| | |_) >  <   ___) | |_| |_| | |  __/\__ \
+ |_|\___/ \___/ \___/| .__/_/\_\ |____/ \__|\__, |_|\___||___/
+                     |_|                    |___/             
+
+*/
+@media (max-width: 1600px){
+    .section-background{
+        width: 80%;
+    }
+}
 
 /*
   __  __       _     _ _        ____  _         _           
@@ -235,18 +304,27 @@ html, body{
     
     .section-content{
         width: 90%;
-        height: 15vh;
+        height: 65vh;
         position: relative;
-        float: left;
         display: block;
         margin: 5vh auto 5vh 3vh;
         background-color: rgba(0,0,0,0);
     }
     
     .section-content-box{
-        width: 50%;
-        height: 8vh;
+        width: 100%;
+        height: 25%;
         margin: 0 0 1vh 0;
         float: left;
     }
+    
+    .section-preview{
+        width: 35%;
+        height: 100%;
+        float: left;
+    }
+    
+    #CSS3_Icon:hover{
+    animation: none;
+}
 }
