@@ -20,7 +20,9 @@
     <body>
         <div class="navigation">
             <div class="logo">
-                <?php include($_SERVER['DOCUMENT_ROOT'].'/PACK/SVG/logo.svg'); ?>
+                <a href="/">
+                    <img src="/PACK/IMG/SB Logo.png" height="100%" alt="Logo"/>
+                </a>
             </div>
             
             <div class="dropNav">

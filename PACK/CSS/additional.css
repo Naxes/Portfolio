@@ -198,7 +198,7 @@ html, body{
 }
 
 #CSS3_Icon:hover{
-    animation: CSS3-transform 4s infinite;
+    animation: CSS3-transform 3s infinite;
 }
 
 @keyframes CSS3-transform {
@@ -239,6 +239,8 @@ html, body{
     }
 }
 
+
+
 .section-link{
     color: #DD7B5E !important;
     text-decoration: none !important;
@@ -248,7 +250,6 @@ html, body{
 }
 
 .section-link:hover{
-    color: #DD7B5E;
     text-shadow: 0 0 1.5px #DD7B5E, 0 0 1.5px #DD7B5E, 0 0 1.5px #DD7B5E;
 }
 /*

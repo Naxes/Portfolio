@@ -20,7 +20,9 @@
     <body>
         <div class="navigation">
             <div class="logo">
-                <?php include($_SERVER['DOCUMENT_ROOT'].'/PACK/SVG/logo.svg'); ?>
+                <a href="/">
+                    <img src="/PACK/IMG/SB Logo.png" height="100%" alt="Logo"/>
+                </a>
             </div>
             
             <div class="dropNav">
@@ -55,12 +57,18 @@
         </div>
 
          <!-- Main Content Container -->
-        <div class="content-background">
+        <div class="content-background clearfix">
             <div class="left-content">
                 <button>
                     <div class="blackbox">
-                        <div class="caption">
+                        <div class="caption clearfix">
+                            <div>
+                                <p class="header-medium-alternate bold-white">LATEST</p> 
+                            </div>
                             <?php include($_SERVER['DOCUMENT_ROOT'].'/PACK/SVG/HTMLCSS.svg'); ?>
+                            <div>
+                                <p class="text-medium text-white">HTML | CSS SVG!</p>
+                            </div>
                         </div>
                     </div>
                 </button>
@@ -74,12 +82,13 @@
                 
                     
                     <div class="sub-content-box">
-                        <div class="preview">
-                            <!-- Images Here -->
-                            
-                        </div>
+                        <a href="#">
+                            <div class="preview">
+                                
+                            </div>
+                        </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange">Title</p>
+                            <p class="header-medium text-orange"><a href="#">Title</a></p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
                             <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
@@ -87,11 +96,13 @@
                     </div>
                     
                     <div class="sub-content-box">
-                        <div class="preview">
-                            <!-- Images Here -->
-                        </div>
+                        <a href="#">
+                            <div class="preview">
+                                
+                            </div>
+                        </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange">Title</p>
+                            <p class="header-medium text-orange"><a href="#">Title</a></p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
                             <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
@@ -99,11 +110,13 @@
                     </div>
                     
                     <div class="sub-content-box">
-                        <div class="preview">
-                            <!-- Images Here -->
-                        </div>
+                        <a href="#">
+                            <div class="preview">
+                                
+                            </div>
+                        </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange">Title</p>
+                            <p class="header-medium text-orange"><a href="#">Title</a></p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
                             <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
@@ -111,11 +124,13 @@
                     </div>
                     
                     <div class="sub-content-box">
-                        <div class="preview">
-                            <!-- Images Here -->
-                        </div>
+                        <a href="#">
+                            <div class="preview">
+                                
+                            </div>
+                        </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange">Title</p>
+                            <p class="header-medium text-orange"><a href="#">Title</a></p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
                             <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
@@ -132,12 +147,13 @@
                 
                     
                     <div class="sub-content-box">
-                        <div class="preview">
-                            <!-- Images Here -->
-                            
-                        </div>
+                        <a href="#">
+                            <div class="preview">
+                                
+                            </div>
+                        </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange">Title</p>
+                            <p class="header-medium text-orange"><a href="#">Title</a></p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
                             <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
@@ -145,11 +161,13 @@
                     </div>
                     
                     <div class="sub-content-box">
-                        <div class="preview">
-                            <!-- Images Here -->
-                        </div>
+                        <a href="#">
+                            <div class="preview">
+                                
+                            </div>
+                        </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange">Title</p>
+                            <p class="header-medium text-orange"><a href="#">Title</a></p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
                             <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
@@ -157,11 +175,13 @@
                     </div>
                     
                     <div class="sub-content-box">
-                        <div class="preview">
-                            <!-- Images Here -->
-                        </div>
+                        <a href="#">
+                            <div class="preview">
+                                
+                            </div>
+                        </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange">Title</p>
+                            <p class="header-medium text-orange"><a href="#">Title</a></p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
                             <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
@@ -169,11 +189,13 @@
                     </div>
                     
                     <div class="sub-content-box">
-                        <div class="preview">
-                            <!-- Images Here -->
-                        </div>
+                        <a href="#">
+                            <div class="preview">
+                                
+                            </div>
+                        </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange">Title</p>
+                            <p class="header-medium text-orange"><a href="#">Title</a></p>
                             <p class="text-small text-white">Description</p>
                             <div class="divider"></div>
                             <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
