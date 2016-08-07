@@ -315,6 +315,7 @@ body::-webkit-scrollbar-thumb {
     cursor: pointer;
     float: left;
     position: relative;
+    text-decoration: none !important;
     border: none;
     border-left: .2vh solid;
     border-left-color: #DD7B5E;
@@ -327,7 +328,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .navbtn:hover{
-    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .dropdown-content1,
