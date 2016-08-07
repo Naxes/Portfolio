@@ -286,7 +286,6 @@ body::-webkit-scrollbar-thumb {
 .web-menu,
 .other-menu{
     width: 5%;
-    height: 100%;
     position: absolute;
     top: 24%;
     display: inline-block;
