@@ -1229,7 +1229,6 @@ body::-webkit-scrollbar-thumb {
         font-size: 7vh;
         font-family: 'Amatic SC', cursive;
         color: #FFFFFF;
-        line-height: 20vh;
     }
     
     .sub-content{
