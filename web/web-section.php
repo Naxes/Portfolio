@@ -21,9 +21,7 @@
     <body>
         <div class="navigation">
             <div class="logo">
-                <a href="/">
-                    <img src="/PACK/IMG/SB Logo.png" height="100%" alt="Logo"/>
-                </a>
+
             </div>
             
             <div class="dropNav">

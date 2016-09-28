@@ -7,7 +7,7 @@
             |___/ |___/                                                      
 
 */
-$(".welcome p:nth-child(3) button").on("click", function() {
+$(".welcome p:nth-child(4) button").on("click", function() {
   var el = $(this);
   if (el.text() == el.data("text-swap")) {
     el.text(el.data("text-original"));
@@ -23,6 +23,10 @@ $(".welcome p:nth-child(3) button").on("click", function() {
 
 });
 
+$(document).ready(function() {
+    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+});
+
 /*
    ____      _            _       _         _____         _     _                     _   _     
   / ___|__ _| | ___ _   _| | __ _| |_ ___  |_   _|____  _| |_  | |    ___ _ __   __ _| |_| |__  
@@ -32,5 +36,5 @@ $(".welcome p:nth-child(3) button").on("click", function() {
                                                                                 |___/           
 
 */
-var el = document.getElementsByTagName('text')[2]; //Change as Needed
-console.log(el.getComputedTextLength());
+/* var el = document.getElementsByTagName('text')[2]; //Change as Needed
+console.log(el.getComputedTextLength()); */

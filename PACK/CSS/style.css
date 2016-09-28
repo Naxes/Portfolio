@@ -116,8 +116,8 @@ html, body{
 
 */
 .text-small{
-    font-family: 'Pompiere', cursive;
-    font-size: 1.7vh;
+    font-family: 'Cuprum', cursive;
+    font-size: 1.5vh;
 }
 
 .text-medium{
@@ -683,10 +683,38 @@ body::-webkit-scrollbar-thumb {
     to {border-color: #DD7B5E; box-shadow: 0 0 .5vh #DD7B5E, 0 0 2.5vh #DD7B5E;}
 }
 
+.under-construct{
+    width: 100%;
+    height: 72vh;
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    z-index: 5;
+}
+
+.under-construct-header{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 7vh;
+    font-family: 'Amatic SC', cursive;
+    color: #FFFFFF;
+    position: relative;
+    
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg); 
+    transform: rotate(20deg);
+}
+
 .sub-content{
     width: 90%;
     height: 70vh;
     float: left;
+    position: relative;
     background-color: rgba(0,0,0,0);
     margin: 0 0 4vh 4vh;
     
@@ -815,17 +843,17 @@ body::-webkit-scrollbar-thumb {
     border-bottom: .2vh solid rgba(123, 47, 137, .4);
 }
 
-.welcome p:nth-child(2), .hobbies p:nth-child(2), .web-design p:nth-child(2), .methodology p:nth-child(2){
-    text-align: center;
+.welcome p:nth-child(2), .about-me_1 p:nth-child(2), .about-me_2 p:nth-child(2), .about-me_3 p:nth-child(2){
+    text-align: justify;
     margin: 0 3vh 1vh 3vh;
 }
 
-.welcome p:nth-child(3){
+.welcome p:nth-child(4){
     text-align: center;
     margin: 1.5vh 0 0 0;
 }
 
-.welcome p:nth-child(3) button{
+.welcome p:nth-child(4) button{
     background-color: transparent;
     outline: none;
     border: none;
@@ -903,7 +931,7 @@ body::-webkit-scrollbar-thumb {
     transform: rotate(-180deg);
 }
 
-.hobbies{/* Blurred Elements */
+.about-me_1{/* Blurred Elements */
     width: 100%;
     min-height: 15%;
     float: left;
@@ -915,13 +943,13 @@ body::-webkit-scrollbar-thumb {
     filter: blur(1.5vh);
 }
 
-.hobbies p:nth-child(1){
+.about-me_1 p:nth-child(1){
     margin: 2vh 3vh 1vh 3vh;
     text-align: center;
     border-bottom: .2vh solid rgba(123, 47, 137, .4);
 }
 
-.web-design{
+.about-me_2{
     width: 100%;
     min-height: 15%;
     float: left;
@@ -932,13 +960,13 @@ body::-webkit-scrollbar-thumb {
     filter: blur(1.5vh);
 }
 
-.web-design p:nth-child(1){
+.about-me_2 p:nth-child(1){
     margin: 2vh 3vh 1vh 3vh;
     text-align: center;
     border-bottom: .2vh solid rgba(123, 47, 137, .4);
 }
 
-.methodology{
+.about-me_3{
     width: 100%;
     height: auto;
     float: left;
@@ -949,7 +977,7 @@ body::-webkit-scrollbar-thumb {
     filter: blur(1.5vh);
 }
 
-.methodology p:nth-child(1){
+.about-me_3 p:nth-child(1){
     margin: 2vh 3vh 1vh 3vh;
     text-align: center;
     border-bottom: .2vh solid rgba(123, 47, 137, .4);
@@ -1187,6 +1215,23 @@ body::-webkit-scrollbar-thumb {
         margin: 0 auto;
     }
     
+    .under-construct{
+        width: 100%;
+        height: 20vh;
+        position: absolute;
+        background-color: rgba(0,0,0,.5);
+        z-index: 5;
+    }
+    
+    .under-construct-header{
+        text-align: center;
+        vertical-align: middle;
+        font-size: 7vh;
+        font-family: 'Amatic SC', cursive;
+        color: #FFFFFF;
+        line-height: 20vh;
+    }
+    
     .sub-content{
         width: 90%;
         height: 15vh;
@@ -1243,13 +1288,17 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
         height: 25%;
         display: block;
-        background-color: rgba(0,0,0,1);
         float: right;
         margin: 0 0 1vh 0;
+        background-color: rgba(0,0,0,1);
         border-top-right-radius: 0%;
     }
     
-    .welcome p:nth-child(3){
+    .welcome p:nth-child(2){
+        text-align: center;
+    }
+    
+    .welcome p:nth-child(4){
         display: none;
     }
     
@@ -1272,7 +1321,7 @@ body::-webkit-scrollbar-thumb {
         display: inline;
     }
     
-    .hobbies{
+    .about-me_1{
         width: 100%;
         height: 25%;
         background-color: rgba(0,0,0,1);
@@ -1284,7 +1333,7 @@ body::-webkit-scrollbar-thumb {
         filter: none;
     }
     
-    .web-design{
+    .about-me_2{
         width: 100%;
         height: 25%;
         background-color: rgba(0,0,0,1);
@@ -1295,7 +1344,7 @@ body::-webkit-scrollbar-thumb {
         filter: none;
     }
     
-    .methodology{
+    .about-me_3{
         width: 100%;
         height: 15%;
         background-color: rgba(0,0,0,1);
