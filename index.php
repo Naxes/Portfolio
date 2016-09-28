@@ -53,6 +53,11 @@
                 </div>
             </div>
         </div>
+        
+        <div class="changelog">
+            <button class="text-white text-medium" role="button">X</button>
+            <p class="text-white text-medium">Site Under Construction</p>
+        </div>
 
          <!-- Main Content Container -->
         <div class="content-background clearfix">
@@ -86,10 +91,11 @@
                             </div>
                         </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange"><a href="#">Title</a></p>
-                            <p class="text-small text-white">Description</p>
+                            <p class="header-medium text-orange"><a href="#">Suigh Sios</a></p>
+                            <p class="text-small text-hot_pink">STATUS - <span class="ongoing">ONGOING</span></br><span class="text-white">Public Transport Application for checking seat availability in real-time.</span></p>
                             <div class="divider"></div>
                             <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
+                            <p class="text-small text-purple">3rd Year (Semester 1 | 2016)</p>
                         </div>
                     </div>
                     
@@ -100,10 +106,11 @@
                             </div>
                         </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange"><a href="#">Title</a></p>
-                            <p class="text-small text-white">Description</p>
+                            <p class="header-medium text-orange"><a href="#">Minor Miners</a></p>
+                            <p class="text-small text-hot_pink">STATUS - <span class="completed">COMPLETED</span></br><span class="text-white">Clicker-Style online game based on the viral 'Cookie Clicker'.</span></p>
                             <div class="divider"></div>
                             <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
+                            <p class="text-small text-purple">2nd Year (Semester 2 | 2016)</p>
                         </div>
                     </div>
                     
@@ -114,10 +121,11 @@
                             </div>
                         </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange"><a href="#">Title</a></p>
-                            <p class="text-small text-white">Description</p>
+                            <p class="header-medium text-orange"><a href="#">Firebox-Inspired Online Store</a></p>
+                            <p class="text-small text-hot_pink">STATUS - <span class="completed">COMPLETED</span></br><span class="text-white">Online store using XML-stored products that are retrieved and displayed.</span></p>
                             <div class="divider"></div>
                             <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
+                            <p class="text-small text-purple">2nd Year (Semester 1 | 2015)</p>
                         </div>
                     </div>
                     
@@ -128,10 +136,11 @@
                             </div>
                         </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange"><a href="#">Title</a></p>
-                            <p class="text-small text-white">Description</p>
+                            <p class="header-medium text-orange"><a href="#">Manga Mania</a></p>
+                            <p class="text-small text-hot_pink">STATUS - <span class="completed">COMPLETED</span></br><span class="text-white">Website providing a PDF-based platform to read Manga.</span></p>
                             <div class="divider"></div>
                             <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
+                            <p class="text-small text-purple">1st Year (Semester 2 | 2015)</p>
                         </div>
                     </div>
                 </div>
@@ -265,18 +274,34 @@
                 </div>
                 
                 <div class="about-me_1 right-content-transition">
-                    <p class="header-medium text-purple">Interests</p>
-                    <p class="text-small text-neon_pink">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p class="header-medium text-purple">College</p>
+                    <p class="text-small text-neon_pink">I am currently a third year student studying BSc Honours in Computing at the National College of Ireland located in IFSC Dublin. As part of this year I am obligated to seek a 6-month Work Placement in which I hope to apply my skills within an industry IT environment.</p>
+                    <p class="boldFontSwap" style="text-align: center;">Availability: January 2017</p>
                 </div>
                 
                 <div class="about-me_2 right-content-transition">
-                    <p class="header-medium text-purple">about-me_2</p>
-                    <p class="text-small text-neon_pink">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p class="header-medium text-purple">About Me 2</p>
+                    <p class="text-small text-neon_pink">Adept with a multitude of software from IDE's to the Adobe Suite including:</p>
                 </div>
                 
                 <div class="about-me_3 right-content-transition">
-                    <p class="header-medium text-purple">about-me_3</p>
-                    <p class="text-small text-neon_pink">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p class="header-medium text-purple">Software</p>
+                    <p class="text-small text-neon_pink">Adept with a multitude of software from IDE's to the Adobe Suite including:</p>
+                    <p class="boldFontSwap" style="text-align: justify; margin: 0 3vh 1vh 3vh;">IDE's</p>
+                    <ul class="text-small text-neon_pink">
+                        <li>Eclipse</li>
+                        <li>Netbeans</li>
+                        <li>Visual Studio 2015</li>
+                        <li>Cloud9 (Used to make this website)</li>
+                    </ul>
+                    
+                    <p class="boldFontSwap" style="text-align: justify; margin: 0 3vh 1vh 3vh;">Adobe Suite</p>
+                    <ul class="text-small text-neon_pink">
+                        <li>Flash</li>
+                        <li>Photoshop</li>
+                        <li>After Effects</li>
+                        <li>Premiere Pro</li>
+                    </ul>
                 </div>
             </div>
             <div class="push"></div>

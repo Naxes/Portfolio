@@ -107,6 +107,18 @@ html, body{
     font-size: 2vh;
 }
 
+.tba{
+    color: #E54E0A;
+}
+
+.ongoing{
+    color: #79BF87;
+}
+
+.completed{
+    color: #5A50BF;
+}
+
 /*
    ____                                        _____         _   
   / ___|___  _ __ ___  _ __ ___   ___  _ __   |_   _|____  _| |_ 
@@ -121,7 +133,7 @@ html, body{
 }
 
 .text-medium{
-    font-family: 'Pompiere', cursive;
+    font-family: 'Cuprum', cursive;
     font-size: 2vh;
 }
 
@@ -390,6 +402,28 @@ body::-webkit-scrollbar-thumb {
  |_|   \___/|_|   \__|_|  \___/|_|_|\___/  (_) |_| |_|\___/|_| |_| |_|\___|
 
 */
+.changelog{
+    width: 12%;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+    background-color: rgba(51,76,127,.5);
+}
+
+.changelog button{
+    width: 10%;
+    float: left;
+    margin: 0 1vh 0 0;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.changelong p{
+    width: 90%;
+    float: left;
+}
+
 .content-background{
     width: 65%;
     background-color: rgba(0,0,0,.5);
@@ -819,6 +853,12 @@ body::-webkit-scrollbar-thumb {
     text-shadow: 0 0 1px #E02079, 0 0 1px #E02079, 0 0 1px #E02079;
 }
 
+.sub-caption p:nth-child(5){
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
 
 /* Right Content */
 .right-content{
@@ -935,12 +975,12 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     min-height: 15%;
     float: left;
-    margin: 2vh 0 1vh 0;
+    margin: 2vh 0 0 0;
     background-color: rgba(0,0,0,1);
     position: relative;
     border-top-right-radius: 35px;
-    -webkit-filter: blur(1.5vh);
-    filter: blur(1.5vh);
+    -webkit-filter: blur(2vh);
+    filter: blur(2vh);
 }
 
 .about-me_1 p:nth-child(1){
@@ -953,11 +993,11 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     min-height: 15%;
     float: left;
-    margin: 0 0 1vh 0;
+    margin: 2vh 0 0 0;
     background-color: rgba(0,0,0,1);
     border-top-right-radius: 35px;
-    -webkit-filter: blur(1.5vh);
-    filter: blur(1.5vh);
+    -webkit-filter: blur(2vh);
+    filter: blur(2vh);
 }
 
 .about-me_2 p:nth-child(1){
@@ -970,11 +1010,11 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: auto;
     float: left;
-    margin: 0 0 1vh 0;
+    margin: 2vh 0 0 0;
     background-color: rgba(0,0,0,1);
     border-top-right-radius: 35px;
-    -webkit-filter: blur(1.5vh);
-    filter: blur(1.5vh);
+    -webkit-filter: blur(2vh);
+    filter: blur(2vh);
 }
 
 .about-me_3 p:nth-child(1){
@@ -991,8 +1031,8 @@ body::-webkit-scrollbar-thumb {
 .right-content-active{
     -webkit-filter: none;
     filter: none;
-    -webkit-transform: translate(0, -20%);
-    -moz-transform: translate(0, -20%);
+    -webkit-transform: translate(0, -30px);
+    -moz-transform: translate(0, -30px);
 }
 
 /*
@@ -1174,6 +1214,10 @@ body::-webkit-scrollbar-thumb {
         font-size: 6vh;
     }
     
+    .changelog{
+        visibility: hidden;
+    }
+    
     .content-background{
         width: 100%;
         overflow: hidden;
@@ -1219,7 +1263,7 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
         height: 20vh;
         position: absolute;
-        background-color: rgba(0,0,0,.5);
+        background-color: rgba(0,0,0,.9);
         z-index: 5;
     }
     
