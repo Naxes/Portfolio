@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>| SEAN BICKMORE |</title>
+        <title>Sean Bickmore</title>
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <!-- JS -->

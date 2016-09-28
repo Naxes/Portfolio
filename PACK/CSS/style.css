@@ -1224,11 +1224,7 @@ body::-webkit-scrollbar-thumb {
     }
     
     .under-construct-header{
-        text-align: center;
-        vertical-align: middle;
-        font-size: 7vh;
-        font-family: 'Amatic SC', cursive;
-        color: #FFFFFF;
+        font-size: 4vh;
     }
     
     .sub-content{

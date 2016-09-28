@@ -23,10 +23,6 @@ $(".welcome p:nth-child(4) button").on("click", function() {
 
 });
 
-$(document).ready(function() {
-    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
-});
-
 /*
    ____      _            _       _         _____         _     _                     _   _     
   / ___|__ _| | ___ _   _| | __ _| |_ ___  |_   _|____  _| |_  | |    ___ _ __   __ _| |_| |__  
