@@ -1215,7 +1215,7 @@ body::-webkit-scrollbar-thumb {
     }
     
     .changelog{
-        visibility: hidden;
+        display: none;
     }
     
     .content-background{
@@ -1310,7 +1310,7 @@ body::-webkit-scrollbar-thumb {
         float: left;
     }
     
-    .sub-caption p:nth-child(4){
+    .sub-caption p:nth-child(2), .sub-caption p:nth-child(3), .sub-caption p:nth-child(4){
         display: none;
     }
     

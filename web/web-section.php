@@ -54,6 +54,11 @@
                 </div>
             </div>
         </div>
+        
+        <div class="changelog">
+            <button class="text-white text-medium" role="button">X</button>
+            <p class="text-white text-medium">Page Incomplete</p>
+        </div>
 
          <!-- Main Content Container -->
         <div class="section-background">
@@ -78,7 +83,7 @@
                     <a href="#">
                         <div class="preview">
                             <!-- Images Here -->
-                            <?php include($_SERVER['DOCUMENT_ROOT'].'/PACK/SVG/SVG_Icon.svg'); ?>
+                            <?php include($_SERVER['DOCUMENT_ROOT'].'/PACK/SVG/svg-logo.svg'); ?>
                         </div>
                     </a>
                     <div class="sub-caption">
@@ -89,5 +94,8 @@
                 </div>
             </div>
         </div>
+        
+        <!-- Main Javascript File -->
+        <script src="/PACK/JS/main.js"></script>
     </body>
 </html>

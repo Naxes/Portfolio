@@ -121,7 +121,7 @@
                             </div>
                         </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange"><a href="#">Firebox-Inspired Online Store</a></p>
+                            <p class="header-medium text-orange"><a href="#">Online Store</a></p>
                             <p class="text-small text-hot_pink">STATUS - <span class="completed">COMPLETED</span></br><span class="text-white">Online store using XML-stored products that are retrieved and displayed.</span></p>
                             <div class="divider"></div>
                             <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
@@ -280,8 +280,18 @@
                 </div>
                 
                 <div class="about-me_2 right-content-transition">
-                    <p class="header-medium text-purple">About Me 2</p>
-                    <p class="text-small text-neon_pink">Adept with a multitude of software from IDE's to the Adobe Suite including:</p>
+                    <p class="header-medium text-purple">Technical Skills</p>
+                    <p class="text-small text-neon_pink">Languages and skills learned inside and outside of the curriculum:</p>
+                    <p class="boldFontSwap" style="text-align: justify; margin: 0 3vh 1vh 3vh;">Skills</p>
+                    <ul class="text-small text-neon_pink">
+                        <li>Java</li>
+                        <li>MySQL</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                        <li>Networking</li>
+                        <li>C# (Started this Year)</li>
+                    </ul>
                 </div>
                 
                 <div class="about-me_3 right-content-transition">
@@ -301,6 +311,13 @@
                         <li>Photoshop</li>
                         <li>After Effects</li>
                         <li>Premiere Pro</li>
+                    </ul>
+                    
+                    <p class="boldFontSwap" style="text-align: justify; margin: 0 3vh 1vh 3vh;">MISC</p>
+                    <ul class="text-small text-neon_pink">
+                        <li>Git Bash</li>
+                        <li>FL Studio</li>
+                        <li>Inkscape (Creating SVG's)</li>
                     </ul>
                 </div>
             </div>
