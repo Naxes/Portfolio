@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>| SEAN BICKMORE |</title>
+        <title>Sean Bickmore</title>
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <!-- JS -->
@@ -20,9 +20,7 @@
     <body>
         <div class="navigation">
             <div class="logo">
-                <a href="/">
-                    <img src="/PACK/IMG/SB Logo.png" height="100%" alt="Logo"/>
-                </a>
+
             </div>
             
             <div class="dropNav">
@@ -63,11 +61,12 @@
                     <div class="blackbox">
                         <div class="caption clearfix">
                             <div>
-                                <p class="header-medium-alternate bold-white">LATEST</p> 
+                                <!-- <p class="header-medium-alternate bold-white">LATEST</p> --> 
                             </div>
+                            <div></div>
                             <?php include($_SERVER['DOCUMENT_ROOT'].'/PACK/SVG/HTMLCSS.svg'); ?>
                             <div>
-                                <p class="text-medium text-white">HTML | CSS SVG!</p>
+                                <p class="text-medium text-white">HTML5 & CSS3 SVG</p>
                             </div>
                         </div>
                     </div>
@@ -207,7 +206,7 @@
                 <!-- Rightmost Content|Desktop&Mobile -->
                 <div class="welcome">
                     <p class="header-medium text-orange">Welcome!</p>
-                    <p class="text-small text-neon_pink">Welcome to my portfolio, where I hope to encapsulate all the things I learn and make in one neat and (hopefully) aesthetically pleasing place</p>
+                    <p class="text-small text-neon_pink">Welcome to my portfolio, where I hope to encapsulate all the things I make and learn in one neat and (hopefully) aesthetically pleasing place</p>
                     <p class="text-link"><span class="arr arrTransitionLeft">&darr;</span><button data-text-swap=" Less About Me " href="#" role="button"> More About Me </span></button><span class="arr arrTransitionRight">&darr;</span></p>
                 </div>
                 </br>
@@ -218,22 +217,17 @@
                 
                 <div class="hobbies right-content-transition">
                     <p class="header-medium text-purple">Hobbies</p>
-                    <p class="text-small text-neon_pink">In an unprofessional sense my hobbies are Music Production, Drawing, Digital Design, Web Design, and tinkering in Games Development. 
-                    And in a professional sense these hobbies channel great creative energy into projects with many, in most cases, being extremely beneficial and relevant. Everyday (even in making this portfolio) I'm 
-                    </br><span class="boldFontSwap">Learning new things!</span></p>
+                    <p class="text-small text-neon_pink">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
                 
                 <div class="web-design right-content-transition">
                     <p class="header-medium text-purple">Web Design</p>
-                    <p class="text-small text-neon_pink">What really gets my blood pumping is the opportunity to work on new and exciting things with people who are equally passionate about the prospects of 
-                    their ideas as I am in my interest to help. Creating expressive, interactive online platforms to advertise and host your idea 
-                    without sacrificing its tangible image is a </br><span class="boldFontSwap">true joy!</span></p>
+                    <p class="text-small text-neon_pink">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
                 
                 <div class="methodology right-content-transition">
                     <p class="header-medium text-purple">Methodology</p>
-                    <p class="text-small text-neon_pink">When it comes to close-up collaboration and consolidation on projects I thoroughly believe in the application of Agile Methodolgies. 
-                    It's functioned especially effectively in many of my college projects. Here's to you; </br><span class="boldFontSwap">Scrum!</span></p>
+                    <p class="text-small text-neon_pink">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
             </div>
             <div class="push"></div>
@@ -247,11 +241,10 @@
             <div class="footerRight">
                 <div class="innerRight">
                     <p class="innerRightTop">&copy;2016-20XX Sean Bickmore</p>
-                    <p class="innerRightMid">Site is Powered by my own Wondrous Hands and made reality thanks to the wonderful Cloud 9 IDE!</p>
+                    <p class="innerRightMid">Thanks a bunch for visiting my website :)</p>
                     <div class="socialLinks">
                         <a href="https://goo.gl/JBdBTF" target="_blank"><img class="linkedIn" src="PACK/IMG/LinkedIn_Icon.jpg" alt="LinkedIn Icon"/></a>
                         <a href="https://goo.gl/rxJa4V" target="_blank"><img class="youTube" src="PACK/IMG/YouTube_Icon.jpg" alt="YouTube Icon"/></a>
-                        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
                     </div>
                 </div>
             </div>

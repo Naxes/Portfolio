@@ -326,6 +326,12 @@ body::-webkit-scrollbar-thumb {
     -moz-transition: background-color .5s;
     transition: background-color .5s;
 }
+.home-menu > .navbtn:focus,
+.web-menu > .navbtn:focus,
+.other-menu > .navbtn:focus{
+    color: #FFFFFF;
+    background-color: #DD7B5E;
+}
 
 .navbtn:hover{
     color: #FFFFFF;
@@ -366,7 +372,7 @@ body::-webkit-scrollbar-thumb {
 .home-menu:hover .navbtn,
 .web-menu:hover .navbtn,
 .other-menu:hover .navbtn{
-    color: #fff;
+    color: #FFFFFF;
     background-color: #DD7B5E;
 }
 
@@ -534,6 +540,134 @@ body::-webkit-scrollbar-thumb {
 @keyframes HTMLCSS-textfill{
     to{
         fill-opacity: 1;
+    }
+}
+
+/* SVG Self Draw Atlas */
+#brownLine, #whiteLine, #redLine{
+    stroke-dasharray: 3600;
+    stroke-dashoffset: 3600;
+    animation-name: atlasDraw;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+}
+
+@keyframes atlasDraw{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#brownFill{
+    fill-opacity: 0;
+    animation-name: atlasBrownFill;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 4.5s;
+}
+
+@keyframes atlasBrownFill{
+    to{
+        fill-opacity: 1;
+    }
+}
+
+#whiteFill{
+    fill-opacity: 0;
+    animation-name: atlasWhiteFill;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 5.5s;
+}
+
+@keyframes atlasWhiteFill{
+    to{
+        fill-opacity: 1;
+    }
+}
+
+#redFill{
+    fill-opacity: 0;
+    animation-name: atlasRedFill;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 6.5s;
+}
+
+@keyframes atlasRedFill{
+    to{
+        fill-opacity: 1;
+    }
+}
+
+#n1, #o{
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    animation-name: noDraw;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 7s;
+}
+
+@keyframes noDraw{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#m, #a, #n2, #apostrophe, #s1{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation-name: mansDraw;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 8s;
+}
+
+@keyframes mansDraw{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#s2, #k, #y{
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation-name: skyDraw;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 9s;
+}
+
+@keyframes skyDraw{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+#Atlas{
+    animation: atlasHover 1.5s infinite alternate;
+    animation-delay: 10.5s;
+}
+
+@keyframes atlasHover{
+    0%{
+        -wekbit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0);   
+    }
+    100%{
+       -wekbit-transform: translate(0, -10%);
+        -moz-transform: translate(0, -10%);
+        transform: translate(0, -10%); 
     }
 }
 
