@@ -11,7 +11,7 @@
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         
         <!-- Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Quicksand|Cuprum|Amatic+SC|Indie+Flower|Pompiere' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Pacifico|Quicksand|Cuprum|Amatic+SC|Indie+Flower|Pompiere' rel='stylesheet' type='text/css'>
         
         <!-- CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
@@ -20,7 +20,7 @@
     <body>
         <div class="navigation">
             <div class="logo">
-
+                <p class="text-purple">Sean <span class="text-purple_light">Bickmore</span></p>
             </div>
             
             <div class="dropNav">
@@ -94,7 +94,7 @@
                             <p class="header-medium text-orange"><a href="#">Suigh Sios</a></p>
                             <p class="text-small text-hot_pink">STATUS - <span class="ongoing">ONGOING</span></br><span class="text-white">Public Transport Application for checking seat availability in real-time.</span></p>
                             <div class="divider"></div>
-                            <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
+                            <p class="text-small text-purple_light">by <a href="https://goo.gl/0CCB4Q" target="_blank">Sean Bickmore</a></p>
                             <p class="text-small text-purple">3rd Year (Semester 1 | 2016)</p>
                         </div>
                     </div>
@@ -107,9 +107,9 @@
                         </a>
                         <div class="sub-caption">
                             <p class="header-medium text-orange"><a href="#">Minor Miners</a></p>
-                            <p class="text-small text-hot_pink">STATUS - <span class="completed">COMPLETED</span></br><span class="text-white">Clicker-Style online game based on the viral 'Cookie Clicker'.</span></p>
+                            <p class="text-small text-hot_pink">STATUS - <span class="completed">COMPLETED</span></br><span class="text-white">Clicker-Style iterative online game inspired by the viral 'Cookie Clicker'.</span></p>
                             <div class="divider"></div>
-                            <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
+                            <p class="text-small text-purple_light">by <a href="https://goo.gl/0CCB4Q" target="_blank">Sean Bickmore</a></p>
                             <p class="text-small text-purple">2nd Year (Semester 2 | 2016)</p>
                         </div>
                     </div>
@@ -121,38 +121,34 @@
                             </div>
                         </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange"><a href="#">Online Store</a></p>
-                            <p class="text-small text-hot_pink">STATUS - <span class="completed">COMPLETED</span></br><span class="text-white">Online store using XML-stored products that are retrieved and displayed.</span></p>
+                            <p class="header-medium text-orange"><a href="https://github.com/Naxes/Manga-Mania" target="_blank">Manga Mania</a></p>
+                            <p class="text-small text-hot_pink">STATUS - <span class="completed">COMPLETED</span></br><span class="text-white">Website providing a PDF-based platform to read Manga.</span></p>
                             <div class="divider"></div>
-                            <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
-                            <p class="text-small text-purple">2nd Year (Semester 1 | 2015)</p>
+                            <p class="text-small text-purple_light">by <a href="https://goo.gl/0CCB4Q" target="_blank">Sean Bickmore</a></p>
+                            <p class="text-small text-purple">1st Year (Semester 2 | 2015)</p>
                         </div>
                     </div>
                     
                     <div class="sub-content-box">
-                        <a href="#">
+                        <a href="https://github.com/Naxes/Online-Store" target="_blank">
                             <div class="preview">
                                 
                             </div>
                         </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange"><a href="#">Manga Mania</a></p>
-                            <p class="text-small text-hot_pink">STATUS - <span class="completed">COMPLETED</span></br><span class="text-white">Website providing a PDF-based platform to read Manga.</span></p>
+                            <p class="header-medium text-orange"><a href="https://github.com/Naxes/Online-Store" target="_blank">Teleconnect</a></p>
+                            <p class="text-small text-hot_pink">STATUS - <span class="completed">COMPLETED</span></br><span class="text-white">Website for a hypothetical product based on the Chromecast.</span></p>
                             <div class="divider"></div>
-                            <p class="text-small text-purple_light">by <a href="#">Sean Bickmore</a></p>
-                            <p class="text-small text-purple">1st Year (Semester 2 | 2015)</p>
+                            <p class="text-small text-purple_light">by <a href="https://goo.gl/0CCB4Q" target="_blank">Sean Bickmore</a></p>
+                            <p class="text-small text-purple">1st Year (Semester 1 | 2014)</p>
                         </div>
                     </div>
                 </div>
                 
                 <!-- Web Stuff -->
                 <div class="sub-content">
-                    <div class="under-construct">
-                        <p class="under-construct-header">Nothing Yet!</p>
-                    </div>
-                    
                     <div class="sub-header">
-                        <p class="header-medium text-purple">Web <span class="text-neon_pink">Tricks</span></p>
+                        <p class="header-medium text-purple">Web <span class="text-neon_pink">Development</span></p>
                         <p class="header-small text-purple_light">Aesthetic Pleasantries!</p>
                     </div>
                 
@@ -163,40 +159,11 @@
                             </div>
                         </a>
                         <div class="sub-caption">
+                            <p class="header-medium text-orange"><a href="https://github.com/Naxes/Portfolio" target="_blank">Portfolio</a></p>
+                            <p class="text-small text-hot_pink">STATUS - <span class="ongoing">ONGOING</span></br><span class="text-white">Portfolio website <span class="text-neon_pink">(i.e. this website)</span> for showcasing anything and everything I've worked on - or will work on - inside and outside of the curriculum.</span></p>
                             <div class="divider"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="sub-content-box">
-                        <a href="#">
-                            <div class="preview">
-                                
-                            </div>
-                        </a>
-                        <div class="sub-caption">
-                            <div class="divider"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="sub-content-box">
-                        <a href="#">
-                            <div class="preview">
-                                
-                            </div>
-                        </a>
-                        <div class="sub-caption">
-                            <div class="divider"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="sub-content-box">
-                        <a href="#">
-                            <div class="preview">
-                                
-                            </div>
-                        </a>
-                        <div class="sub-caption">
-                            <div class="divider"></div>
+                            <p class="text-small text-purple_light">by <a href="https://goo.gl/0CCB4Q" target="_blank">Sean Bickmore</a></p>
+                            <p class="text-small text-purple">Summer | 2016</p>
                         </div>
                     </div>
                 </div>
@@ -285,6 +252,7 @@
                     <p class="boldFontSwap" style="text-align: justify; margin: 0 3vh 1vh 3vh;">Skills</p>
                     <ul class="text-small text-neon_pink">
                         <li>Java</li>
+                        <li>PHP</li>
                         <li>MySQL</li>
                         <li>HTML5</li>
                         <li>CSS3</li>
@@ -332,7 +300,7 @@
             <div class="footerRight">
                 <div class="innerRight">
                     <p class="innerRightTop">&copy;2016-20XX Sean Bickmore</p>
-                    <p class="innerRightMid">Developed using Cloud9 IDE</p>
+                    <p class="innerRightMid">Developed using the Cloud9 IDE</p>
                     <div class="socialLinks">
                         <a href="https://goo.gl/JBdBTF" target="_blank"><img class="linkedIn" src="PACK/IMG/LinkedIn_Icon.jpg" alt="LinkedIn Icon"/></a>
                         <a href="https://goo.gl/rxJa4V" target="_blank"><img class="youTube" src="PACK/IMG/YouTube_Icon.jpg" alt="YouTube Icon"/></a>

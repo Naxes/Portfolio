@@ -81,7 +81,7 @@
                 
                 <div class="section-content-box">
                     <a href="#">
-                        <div class="preview">
+                        <div class="section-preview">
                             <!-- Images Here -->
                             <?php include($_SERVER['DOCUMENT_ROOT'].'/PACK/SVG/svg-logo.svg'); ?>
                         </div>
