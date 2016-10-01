@@ -7,7 +7,7 @@
             |___/ |___/                                                      
 
 */
-$(".welcome p:nth-child(4) button").on("click", function() {
+$(".welcome p:nth-child(5) button").on("click", function() {
   var el = $(this);
   if (el.text() == el.data("text-swap")) {
     el.text(el.data("text-original"));

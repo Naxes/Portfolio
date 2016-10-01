@@ -884,17 +884,28 @@ body::-webkit-scrollbar-thumb {
     border-bottom: .2vh solid rgba(123, 47, 137, .4);
 }
 
-.welcome p:nth-child(2), .about-me_1 p:nth-child(2), .about-me_2 p:nth-child(2), .about-me_3 p:nth-child(2){
+.welcome div:nth-child(2){
+    width: 8vw;
+    height: 8vw;
+    position: relative;
+    margin: 0 auto 1vh auto;
+}
+
+.welcome div:nth-child(2), .welcome div:nth-child(2) img{
+    border-radius: 10vw;
+}
+
+.welcome p:nth-child(3), .about-me_1 p:nth-child(3), .about-me_2 p:nth-child(2), .about-me_3 p:nth-child(2){
     text-align: justify;
     margin: 0 3vh 1vh 3vh;
 }
 
-.welcome p:nth-child(4){
+.welcome p:nth-child(5){
     text-align: center;
     margin: 1.5vh 0 0 0;
 }
 
-.welcome p:nth-child(4) button{
+.welcome p:nth-child(5) button{
     background-color: transparent;
     outline: none;
     border: none;
@@ -988,6 +999,17 @@ body::-webkit-scrollbar-thumb {
     margin: 2vh 3vh 1vh 3vh;
     text-align: center;
     border-bottom: .2vh solid rgba(123, 47, 137, .4);
+}
+
+.about-me_1 div:nth-child(2){
+    width: 8vw;
+    height: 8vw;
+    position: relative;
+    margin: 0 auto 1vh auto;
+}
+
+.about-me_1 div:nth-child(2), .about-me_1 div:nth-child(2) img{
+    border-radius: 10vw;
 }
 
 .about-me_2{
@@ -1333,12 +1355,13 @@ body::-webkit-scrollbar-thumb {
         border-top-right-radius: 0%;
     }
     
-    .welcome p:nth-child(2){
-        text-align: center;
+    .welcome div:nth-child(2){
+        width: 15vh;
+        height: 15vh;
     }
     
-    .welcome p:nth-child(4){
-        display: none;
+    .welcome div:nth-child(2), .welcome div:nth-child(2) img{
+        border-radius: 10vh;
     }
     
     .more-link{
@@ -1370,6 +1393,15 @@ body::-webkit-scrollbar-thumb {
         border-top-right-radius: 0%;
         -webkit-filter: none;
         filter: none;
+    }
+    
+    .about-me_1 div:nth-child(2){
+        width: 15vh;
+        height: 15vh;
+    }
+    
+    .about-me_1 div:nth-child(2), .about-me_1 div:nth-child(2) img{
+        border-radius: 10vh;
     }
     
     .about-me_2{

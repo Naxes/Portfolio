@@ -22,13 +22,15 @@
             <div class="logo">
                 <p class="text-purple">Sean <span class="text-purple_light">Bickmore</span></p>
             </div>
+            <!-- Navigation for when further pages are developed -->
             
+            <!--
             <div class="dropNav">
                 <div class="home-menu text-center">
                     <a class="navbtn" href="/">Home</a>
                     
                     <div class="dropdown-content1">
-                        <!-- Links Here -->
+                        
                         
                     </div>
                 </div>
@@ -37,7 +39,6 @@
                     <a class="navbtn" href="/web/web-section">Web</a>
                     
                     <div class="dropdown-content2">
-                        <!-- Links Here -->
                         <a href="#">CSS3</a>
                         <a href="#">SVG</a>
                     </div>
@@ -47,11 +48,11 @@
                     <a class="navbtn" href="#">Other</a>
                     
                     <div class="dropdown-content3">
-                        <!-- Links Here -->
                         
                     </div>
                 </div>
             </div>
+            -->
         </div>
         
         <div class="changelog">
@@ -92,7 +93,7 @@
                         </a>
                         <div class="sub-caption">
                             <p class="header-medium text-orange"><a href="#">Suigh Sios</a></p>
-                            <p class="text-small text-hot_pink">STATUS - <span class="ongoing">ONGOING</span></br><span class="text-white">Public Transport Application for checking seat availability in real-time.</span></p>
+                            <p class="text-small text-hot_pink">STATUS - <span class="tba">COMMENCING SOON</span></br><span class="text-white">Public Transport Application for checking seat availability in real-time.</span></p>
                             <div class="divider"></div>
                             <p class="text-small text-purple_light">by <a href="https://goo.gl/0CCB4Q" target="_blank">Sean Bickmore</a></p>
                             <p class="text-small text-purple">3rd Year (Semester 1 | 2016)</p>
@@ -102,11 +103,11 @@
                     <div class="sub-content-box">
                         <a href="#">
                             <div class="preview">
-                                
+                                <img src="/PACK/IMG/Minor Miners Icon.png" alt="Minor Miners Project Logo" width="100%" height="100%"/>
                             </div>
                         </a>
                         <div class="sub-caption">
-                            <p class="header-medium text-orange"><a href="#">Minor Miners</a></p>
+                            <p class="header-medium text-orange"><a href="https://github.com/Naxes/Minor-Miners" target="_blank">Minor Miners</a></p>
                             <p class="text-small text-hot_pink">STATUS - <span class="completed">COMPLETED</span></br><span class="text-white">Clicker-Style iterative online game inspired by the viral 'Cookie Clicker'.</span></p>
                             <div class="divider"></div>
                             <p class="text-small text-purple_light">by <a href="https://goo.gl/0CCB4Q" target="_blank">Sean Bickmore</a></p>
@@ -117,7 +118,7 @@
                     <div class="sub-content-box">
                         <a href="#">
                             <div class="preview">
-                                
+                                <img src="/PACK/IMG/Manga Mania Icon.png" alt="Manga Mania Project Logo" width="100%" height="100%"/>
                             </div>
                         </a>
                         <div class="sub-caption">
@@ -132,7 +133,7 @@
                     <div class="sub-content-box">
                         <a href="https://github.com/Naxes/Online-Store" target="_blank">
                             <div class="preview">
-                                
+                                <img src="/PACK/IMG/Teleconnect Icon.png" alt="Teleconnect Project Logo" width="100%" height="100%"/>
                             </div>
                         </a>
                         <div class="sub-caption">
@@ -228,6 +229,9 @@
                 <!-- Rightmost Content|Desktop & Mobile -->
                 <div class="welcome">
                     <p class="header-medium text-orange">Welcome!</p>
+                    <div>
+                        <img src="/PACK/IMG/Profile_Icon.JPG" alt="Picture of Me" width="100%" height="100%"/>
+                    </div>
                     <p class="text-small text-neon_pink">Welcome to my website for hosting various tid-bits as well as college projects and things I work on in my spare time.</br></br>
                     Most of this work is my passion in Web Development and is, in general, how I choose to make projects when given the option.</br></br>
                     In the future I will also share work related to Java and C# among other areas of expertise.</p>
@@ -242,7 +246,10 @@
                 
                 <div class="about-me_1 right-content-transition">
                     <p class="header-medium text-purple">College</p>
-                    <p class="text-small text-neon_pink">I am currently a third year student studying BSc Honours in Computing at the National College of Ireland located in IFSC Dublin. As part of this year I am obligated to seek a 6-month Work Placement in which I hope to apply my skills within an industry IT environment.</p>
+                    <div>
+                        <img src="/PACK/IMG/NCI.jpg" alt="Picture of the National College of Ireland" width="100%" height="100%"/>
+                    </div>
+                    <p class="text-small text-neon_pink">I am currently a third year student studying BSc Honours in Computing at the National College of Ireland located in the IFSC Dublin. As part of this year I am obligated to seek a 6-month Work Placement in which I hope to apply my skills within an industry IT environment.</p>
                     <p class="boldFontSwap" style="text-align: center;">Availability: January 2017</p>
                 </div>
                 
@@ -257,7 +264,6 @@
                         <li>HTML5</li>
                         <li>CSS3</li>
                         <li>Javascript</li>
-                        <li>Networking</li>
                         <li>C# (Started this Year)</li>
                     </ul>
                 </div>
