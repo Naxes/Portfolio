@@ -251,7 +251,7 @@
             <div class="right-content">
                 <!-- Rightmost Content|Desktop & Mobile -->
                 <div class="welcome">
-                    <p class="header-medium text-orange">Welcome!</p>
+                    <p class="header-medium text-orange">Hey There!</p>
                     <div>
                         <img src="/PACK/IMG/Profile_Icon.JPG" alt="Picture of Me" width="100%" height="100%"/>
                     </div>
