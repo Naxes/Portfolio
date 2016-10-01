@@ -101,7 +101,7 @@
                     </div>
                     
                     <div class="sub-content-box">
-                        <a href="#">
+                        <a href="https://github.com/Naxes/Minor-Miners" target="_blank">
                             <div class="preview">
                                 <img src="/PACK/IMG/Minor Miners Icon.png" alt="Minor Miners Project Logo" width="100%" height="100%"/>
                             </div>
@@ -116,7 +116,7 @@
                     </div>
                     
                     <div class="sub-content-box">
-                        <a href="#">
+                        <a href="https://github.com/Naxes/Manga-Mania" target="_blank">
                             <div class="preview">
                                 <img src="/PACK/IMG/Manga Mania Icon.png" alt="Manga Mania Project Logo" width="100%" height="100%"/>
                             </div>
@@ -154,7 +154,7 @@
                     </div>
                 
                     <div class="sub-content-box">
-                        <a href="#">
+                        <a href="https://github.com/Naxes/Portfolio" target="_blank">
                             <div class="preview">
                                 
                             </div>
