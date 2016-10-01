@@ -792,12 +792,55 @@ body::-webkit-scrollbar-thumb {
     width: 20%;
     height: 15vh;
     float: left;
+    position: relative;
+    overflow: hidden;
     border: .2vh solid #7B2F89;
     animation: none;
 }
 
+.preview-popup{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 100%;
+    background-color: rgba(0,0,0,.5);
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -o-transition: transform .5s;
+    transition: transform .5s;
+}
+
+.preview-popup > .git-btn{
+    background-color: rgba(84,191,111,1);
+}
+
+.preview-popup > .tba-btn{
+    background-color: rgba(191,92,66,1);
+}
+
+.git-btn, .tba-btn{
+    width: 75%;
+    height: 4vh;
+    margin: 0 auto;
+    line-height: 4vh;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 2vw;
+    text-align: center;
+}
+
 .preview:hover{
     animation: preview-highlight .5s alternate infinite;
+}
+
+.preview:hover > .preview-popup{
+    -webkit-transform: translate(100%);
+    -moz-transform: translate(100%);
+    -o-transform: translate(100%);
+    transform: translate(100%);
 }
 
 @keyframes preview-highlight{
@@ -1324,6 +1367,10 @@ body::-webkit-scrollbar-thumb {
         width: 35%;
         height: 8vh;
         float: left;
+    }
+    
+    .preview-popup{
+        display: none;
     }
     
     .sub-caption{
